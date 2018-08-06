@@ -20,10 +20,33 @@ module.exports = {
         include: [resolve('src/script/page/**/*.js')]
       },
       {
-        test: /\.scss/,
-        include,
-        exclude,
+        test: /\.scss$/,
+        include: [resolve('src/style/')],
         use: ['style-loader', 'css-loader', 'sass-loader', 'postcss-loader']
+      },
+      {
+        test: /\.(jpg|png|jpeg|gif)$/,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 2048,
+              useRelativePath: true,
+              name: '[name].[hash:4].[ext]'
+            }
+          }
+        ]
+      },
+      {
+        test: /\.html$/,
+        use: [
+          {
+            loader: 'html-loader',
+            options: {
+              interpolate: true
+            }
+          }
+        ]
       }
     ]
   }

@@ -14,7 +14,9 @@ module.exports = merge(commonConfig, {
   plugins: [
     new HtmlWebpackPlugin({
       // filename: resolve('dist/page/index/index.html'),
-      template: 'src/page/index/index.html'
+      template: 'src/page/index/index.html',
+      loader: 'raw-loader',
+      title: 'homepage'
     })
   ]
 });

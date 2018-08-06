@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  ${require('../components/meta.html')}
+  <title>
+    首页
+  </title>
 </head>
 
 <body>
-  index
-  <img src="../../image/page/index/index-1.jpg" alt="">
+  ${require('../components/header.html')}
+  <img src="/src/image/page/index/index-1.jpg" width="500" alt="图片" />
+  <!-- <%=include('@/src/page/components/footer.ejs') %> -->
+  ${require('../components/footer.html')}
 </body>
 
 </html>
