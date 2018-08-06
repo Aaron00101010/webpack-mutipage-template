@@ -1,0 +1,41 @@
+{
+  "name": "webpack-mutipage-template",
+  "version": "0.0.1",
+  "description": "a mutipage webpack template config",
+  "main": "none",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.1.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "css-loader": "^1.0.0",
+    "glob": "^7.1.2",
+    "html-webpack-plugin": "^3.2.0",
+    "nodemon": "^1.18.3",
+    "postcss-loader": "^2.1.6",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-merge": "^4.1.4"
+  },
+  "scripts": {
+    "build": "webpack --env production",
+    "config:dev": "nodemon --watch ./build/webpack.config.dev.js --exec \"webpack-dev-server --config ./build/webpack.config.dev.js --mode development\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aaron00101010/webpack-mutipage-template.git"
+  },
+  "keywords": [
+    "webpack-config",
+    "mutipage"
+  ],
+  "author": "Qiang Xie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aaron00101010/webpack-mutipage-template/issues"
+  },
+  "homepage": "https://github.com/Aaron00101010/webpack-mutipage-template#readme"
+}
