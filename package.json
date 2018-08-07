@@ -3,12 +3,18 @@
   "version": "0.0.1",
   "description": "a mutipage webpack template config",
   "main": "none",
-  "dependencies": {},
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
   "devDependencies": {
     "autoprefixer": "^9.1.0",
     "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
     "babel-loader": "^7.1.5",
     "css-loader": "^1.0.0",
+    "eslint": "^5.3.0",
+    "eslint-config-enough": "^0.3.4",
+    "eslint-loader": "^2.1.0",
     "file-loader": "^1.1.11",
     "glob": "^7.1.2",
     "html-loader": "^0.5.5",

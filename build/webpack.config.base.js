@@ -16,7 +16,7 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        loader: 'babel-loader',
+        use: ['babel-loader', 'eslint-loader'],
         include: [resolve('src/script/page/**/*.js')]
       },
       {
@@ -43,7 +43,8 @@ module.exports = {
           {
             loader: 'html-loader',
             options: {
-              interpolate: true
+              interpolate: true,
+              root: resolve('src')
             }
           }
         ]
@@ -54,6 +55,7 @@ module.exports = {
     new webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery'
-    })
+    }),
+    new webpack.HashedModuleIdsPlugin()
   ]
 };

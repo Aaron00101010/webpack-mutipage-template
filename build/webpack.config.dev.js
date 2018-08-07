@@ -16,8 +16,8 @@ module.exports = merge(commonConfig, {
   output: {
     path: resolve('dist'),
     publicPath: '/',
-    filename: '[name].js'
-    //   chunkFilename: 'js/[id].chunk.js' //chunk生成的配置
+    filename: '[name].js',
+    chunkFilename: 'js/[name].[chunkhash:6].js'
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -25,21 +25,24 @@ module.exports = merge(commonConfig, {
       filename: 'index.html',
       template: 'src/page/index/index.html',
       inject: 'body',
-      hash: true
-      // chunks: ['vendors', 'index'] //需要引入的chunk，不配置就会引入所有页面的资源
+      hash: true,
+      chunks: ['index']
     }),
     new HtmlWebpackPlugin({
       favicon: 'src/image/favicon/100x100.png',
       filename: 'list.html',
       template: 'src/page/list/list.html',
       inject: 'body',
-      hash: true
-      // chunks: ['vendors', 'index'] //需要引入的chunk，不配置就会引入所有页面的资源
+      hash: true,
+      chunks: ['list']
     })
   ],
   devServer: {
-    // contentBase: resolve('dist'),
+    contentBase: resolve('dist'),
     // index: resolve('dist/page/index.html'),
     // hot: true
+    // stats: 'errors-only',
+    overlay: true,
+    compress: true
   }
 });
