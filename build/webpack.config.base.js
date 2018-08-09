@@ -5,12 +5,18 @@ function resolve(dir) {
 }
 
 module.exports = {
-  context: path.resolve(__dirname, '../'),
+  context: path.resolve(__dirname, '..'),
   resolve: {
     extensions: ['.js', '.scss', '.json'],
     alias: {
       '@': resolve('src')
     }
+  },
+  output: {
+    path: resolve('dist'),
+    publicPath: '/',
+    filename: '[name].js',
+    chunkFilename: 'js/[name].[chunkhash:6].js'
   },
   module: {
     rules: [
@@ -25,14 +31,14 @@ module.exports = {
         use: ['style-loader', 'css-loader', 'sass-loader', 'postcss-loader']
       },
       {
-        test: /\.(jpg|png|jpeg|gif)$/,
+        test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
         use: [
           {
             loader: 'url-loader',
             options: {
               limit: 2048,
               useRelativePath: true,
-              name: '[name].[hash:4].[ext]'
+              name: '[hash].[ext]'
             }
           }
         ]

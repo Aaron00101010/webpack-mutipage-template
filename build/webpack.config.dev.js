@@ -13,12 +13,6 @@ module.exports = merge(commonConfig, {
     index: resolve('src/script/page/index/index.js'),
     list: resolve('src/script/page/list/list.js')
   },
-  output: {
-    path: resolve('dist'),
-    publicPath: '/',
-    filename: '[name].js',
-    chunkFilename: 'js/[name].[chunkhash:6].js'
-  },
   plugins: [
     new HtmlWebpackPlugin({
       favicon: 'src/image/favicon/100x100.png',
@@ -38,11 +32,9 @@ module.exports = merge(commonConfig, {
     })
   ],
   devServer: {
-    contentBase: resolve('dist'),
-    // index: resolve('dist/page/index.html'),
-    // hot: true
-    // stats: 'errors-only',
+    // contentBase: resolve('dist'),
+    contentBase:'../',
     overlay: true,
-    compress: true
+    // hotOnly:true
   }
 });
