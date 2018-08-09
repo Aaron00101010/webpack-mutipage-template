@@ -4,6 +4,7 @@
   "description": "a mutipage webpack template config",
   "main": "none",
   "dependencies": {
+    "eslint-plugin-import": "^2.13.0",
     "jquery": "^3.3.1"
   },
   "devDependencies": {
@@ -14,7 +15,11 @@
     "css-loader": "^1.0.0",
     "eslint": "^5.3.0",
     "eslint-config-enough": "^0.3.4",
+    "eslint-config-standard": "^11.0.0",
     "eslint-loader": "^2.1.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
     "file-loader": "^1.1.11",
     "glob": "^7.1.2",
     "html-loader": "^0.5.5",
