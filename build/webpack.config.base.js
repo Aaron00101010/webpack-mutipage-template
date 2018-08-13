@@ -31,26 +31,27 @@ module.exports = {
         use: ['style-loader', 'css-loader', 'sass-loader', 'postcss-loader']
       },
       {
-        test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
+        test: /\.(png|jpe?g|gif|svg)(\?.*)?$/i,
         use: [
           {
             loader: 'url-loader',
             options: {
               limit: 2048,
-              useRelativePath: true,
-              name: '[hash].[ext]'
+              // useRelativePath: true,
+              name: '[path][hash].[ext]'
             }
           }
         ]
       },
       {
         test: /\.html$/,
+        exclude:['src/page/components'],
         use: [
           {
             loader: 'html-loader',
             options: {
               interpolate: true,
-              root: resolve('src')
+              root: resolve('dist')
             }
           }
         ]

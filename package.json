@@ -4,6 +4,7 @@
   "description": "a mutipage webpack template config",
   "main": "none",
   "dependencies": {
+    "@vue/cli": "^3.0.0",
     "eslint-plugin-import": "^2.13.0",
     "jquery": "^3.3.1"
   },
@@ -12,6 +13,7 @@
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.6",
     "babel-loader": "^7.1.5",
+    "copy-webpack-plugin": "^4.5.2",
     "css-loader": "^1.0.0",
     "eslint": "^5.3.0",
     "eslint-config-enough": "^0.3.4",
