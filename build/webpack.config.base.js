@@ -1,5 +1,6 @@
 const path = require('path')
 const webpack = require('webpack')
+const {entriesArr,htmlTemplateArr} = require('./entry-config')
 
 function resolve (dir) {
   return path.join(__dirname, '..', dir)

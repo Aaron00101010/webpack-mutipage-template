@@ -18,7 +18,7 @@ module.exports = merge(commonConfig, {
     path: resolve('dist'),
     publicPath: '/',
     filename: '[name].[hash:8].js',
-    chunkFilename: '[name].[chunkhash:8].js'
+    chunkFilename: '[name].[hash:8].js'
   },
   plugins: [
     new HtmlWebpackPlugin({
