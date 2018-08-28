@@ -40,7 +40,7 @@
   },
   "scripts": {
     "build": "webpack --env production",
-    "config:dev": "nodemon --watch ./build/webpack.config.dev.js --exec \"webpack-dev-server --config ./build/webpack.config.dev.js --mode development\""
+    "config:dev": "nodemon --watch ./build/*.js --exec \"webpack-dev-server --config ./build/webpack.config.dev.js --mode development\""
   },
   "repository": {
     "type": "git",
