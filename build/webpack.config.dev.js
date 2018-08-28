@@ -14,24 +14,30 @@ module.exports = merge(commonConfig, {
     index: resolve('src/script/page/index/index.js'),
     list: resolve('src/script/page/list/list.js')
   },
+  output: {
+    path: resolve('dist'),
+    publicPath: '/',
+    filename: '[name].[hash:8].js',
+    chunkFilename: '[name].[chunkhash:8].js'
+  },
   plugins: [
     new HtmlWebpackPlugin({
-      favicon: 'src/image/favicon/100x100.png',
-      filename: 'dist/page/index.html',
+      favicon: 'src/image/favicon/favicon.png',
+      filename: 'index.html',
       template: 'src/page/index/index.html',
       hash: true,
       chunks: ['index']
     }),
     new HtmlWebpackPlugin({
-      favicon: 'src/image/favicon/100x100.png',
-      filename: 'dist/page/list/list.html',
+      favicon: 'src/image/favicon/favicon.png',
+      filename: 'page/list/list.html',
       template: 'src/page/list/list.html',
       hash: true,
       chunks: ['list']
-    })
+    }),
     // new CopyWebpackPlugin([{
     //   from:'src/image',
-    //   to:'dist/image'
+    //   to:'image'
     // }])
   ],
   devServer: {
