@@ -1,13 +1,13 @@
-const path = require('path');
-const merge = require('webpack-merge');
+const path = require('path')
+const merge = require('webpack-merge')
 
-const commonConfig = require('./webpack.config.base');
+const baseConfig = require('./webpack.config.base')
 
-function resolve(dir) {
-  return path.join(__dirname, '..', dir);
+function resolve (dir) {
+  return path.join(__dirname, '..', dir)
 }
 
-module.exports = merge(commonConfig, {
+module.exports = merge(baseConfig, {
   mode: 'development',
   devServer: {
     contentBase: resolve('dist'),
@@ -15,10 +15,5 @@ module.exports = merge(commonConfig, {
   },
   watchOptions: {
     ignored: /node_modules/
-  },
-  resolve: {
-
-  },
-  plugins: [
-  ]
-});
+  }
+})

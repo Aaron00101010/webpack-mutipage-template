@@ -1,17 +1,14 @@
-//雪碧图配置
-const glob = require('glob');
-const path = require('path');
-const WebpackSpritesmith = require('webpack-spritesmith');
+// 雪碧图配置
+const glob = require('glob')
+const path = require('path')
+const WebpackSpritesmith = require('webpack-spritesmith')
 
 const folders = glob.sync(path.resolve(__dirname, '..', 'src/sprite/img/*'))
-const pluginsArr = [];
-
-function resolve(dir) {
-  return path.join(__dirname, '..', dir)
-}
+const pluginsArr = []
 
 folders.forEach(path => {
-  const generatePath = path.replace(/(sprite\/)(img)/,'$1generate')
+  const generatePath = path.replace(/(sprite\/)(img)/, '$1generate')
+  const refPath = `~${path.match(/sprite\/img\/(.+)/)[1]}/sprite.png`
   pluginsArr.push(
     new WebpackSpritesmith({
       src: {
@@ -19,40 +16,16 @@ folders.forEach(path => {
         glob: '*.png'
       },
       target: {
-        image: `${path}/sprite.png`,
-        css: resolve('src/sprite/generate/common/sprite.scss')
+        image: `${generatePath}/sprite.png`,
+        css: `${generatePath}/sprite.scss`
       },
+      apiOptions: {
+        cssImageRef: refPath
+      }
     })
-  );
-});
+  )
+})
 
 module.exports = {
-  plugins: [
-    new WebpackSpritesmith({
-      src: {
-        cwd: resolve('src/sprite/img/common'),
-        glob: '*.png'
-      },
-      target: {
-        image: resolve('src/sprite/generate/common/sprite.png'),
-        css: resolve('src/sprite/generate/common/sprite.scss')
-      },
-      apiOptions: {
-        cssImageRef: "~common/sprite.png"
-      }
-    }),
-    new WebpackSpritesmith({
-      src: {
-        cwd: resolve('src/sprite/img/index'),
-        glob: '*.png'
-      },
-      target: {
-        image: resolve('src/sprite/generate/index/sprite.png'),
-        css: resolve('src/sprite/generate/index/sprite.scss')
-      },
-      apiOptions: {
-        cssImageRef: "~index/sprite.png"
-      }
-    })
-  ]
+  plugins: pluginsArr
 }

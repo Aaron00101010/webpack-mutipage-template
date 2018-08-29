@@ -1,20 +1,20 @@
-const path = require('path');
-const merge = require('webpack-merge');
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const CleanWebpackPlugin = require('clean-webpack-plugin');
-const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
-const UglifyWebpackPlugin = require("uglifyjs-webpack-plugin");
+const path = require('path')
+const merge = require('webpack-merge')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const CleanWebpackPlugin = require('clean-webpack-plugin')
+const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
+const UglifyWebpackPlugin = require('uglifyjs-webpack-plugin')
 
-const commonConfig = require('./webpack.config.base');
+const baseConfig = require('./webpack.config.base')
 
-function resolve(dir) {
-  return path.join(__dirname, '..', dir);
+function resolve (dir) {
+  return path.join(__dirname, '..', dir)
 }
 
-module.exports = merge(commonConfig, {
+module.exports = merge(baseConfig, {
   mode: 'production',
   module: {
-    rules:[{
+    rules: [{
       test: /\.s?css$/,
       include: [resolve('src/style')],
       use: [
@@ -27,10 +27,10 @@ module.exports = merge(commonConfig, {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: "static/style/[name].[chunkhash].css",
-      chunkFilename: "[id].[hash].css"
+      filename: 'static/style/[name].[chunkhash].css',
+      chunkFilename: '[id].[hash].css'
     }),
-    new CleanWebpackPlugin([resolve('dist')],{root:resolve('')})
+    new CleanWebpackPlugin([resolve('dist')], {root: resolve('')})
   ],
   optimization: {
     minimizer: [
@@ -38,4 +38,4 @@ module.exports = merge(commonConfig, {
       new UglifyWebpackPlugin()
     ]
   }
-});
+})

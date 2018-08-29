@@ -1,15 +1,15 @@
 const path = require('path')
 const webpack = require('webpack')
 const merge = require('webpack-merge')
-const enteriesConfig = require('./entry-config');
-const spriteConfig = require('./sprite-config');
+const enteriesConfig = require('./entry-config')
+const spriteConfig = require('./sprite-config')
 
-function resolve(dir) {
+function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
 
-module.exports = merge(enteriesConfig,spriteConfig, {
-  context: path.resolve(__dirname, '..'),
+let config = merge(enteriesConfig, spriteConfig, {
+  context: resolve(''),
   resolve: {
     extensions: ['.js', '.scss', '.json'],
     modules: ['node_modules', resolve('src/sprite/generate')],
@@ -29,12 +29,11 @@ module.exports = merge(enteriesConfig,spriteConfig, {
       {
         test: /\.js$/,
         use: ['babel-loader', 'eslint-loader'],
-        include: [resolve('src/script/**/*.js')],
-        exclude: /node_modules/,
+        include: [resolve('src')]
       },
       {
         test: /\.scss$/,
-        include: [resolve('src/style/')],
+        include: [resolve('src/style')],
         use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader']
       },
       {
@@ -69,4 +68,6 @@ module.exports = merge(enteriesConfig,spriteConfig, {
     }),
     new webpack.HashedModuleIdsPlugin()
   ]
-});
+})
+
+module.exports = config

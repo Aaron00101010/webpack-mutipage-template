@@ -1,24 +1,24 @@
-//多文件，entry，HTMLWebpackPlugin配置
-const glob = require('glob');
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+// 多文件，entry，HTMLWebpackPlugin配置
+const glob = require('glob')
+const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 const entries = glob.sync(path.resolve(__dirname, '..', 'src/page/**/*.js'))
-const entriesOpt = {};
-const htmlTemplateOpt = [];
+const entriesOpt = {}
+const htmlTemplateOpt = []
 
-const faviconPath = path.resolve(__dirname,'..','src/image/favicon/favicon.png');
+const faviconPath = path.resolve(__dirname, '..', 'src/image/favicon/favicon.png')
 
 entries.forEach(item => {
-  const chunkName = item.match(/src\/page\/(.+)\.js/)[1];
-  const templatePath = item.replace(/.js$/, '.html');
-  let fileName = templatePath.match(/src\/(page\/.+\.html$)/)[1];
+  const chunkName = item.match(/src\/page\/(.+)\.js/)[1]
+  const templatePath = item.replace(/.js$/, '.html')
+  let fileName = templatePath.match(/src\/(page\/.+\.html$)/)[1]
 
-  if(chunkName === 'index/index'){
-    fileName = 'index.html';
+  if (chunkName === 'index/index') {
+    fileName = 'index.html'
   }
 
-  entriesOpt[chunkName] = item;
+  entriesOpt[chunkName] = item
 
   htmlTemplateOpt.push(
     new HtmlWebpackPlugin({
@@ -32,8 +32,8 @@ entries.forEach(item => {
 })
 
 const config = {
-  entry:entriesOpt,
-  plugins:htmlTemplateOpt
+  entry: entriesOpt,
+  plugins: htmlTemplateOpt
 }
 
-module.exports = config;
+module.exports = config
