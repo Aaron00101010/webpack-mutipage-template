@@ -1,18 +1,28 @@
 const path = require('path')
 const webpack = require('webpack')
-// const {entriesArr,htmlTemplateArr} = require('./entry-config')
+const merge = require('webpack-merge')
+const enteriesConfig = require('./entry-config');
+const spriteConfig = require('./sprite-config');
 
-function resolve (dir) {
+function resolve(dir) {
   return path.join(__dirname, '..', dir)
 }
 
-module.exports = {
+module.exports = merge(enteriesConfig,spriteConfig, {
   context: path.resolve(__dirname, '..'),
   resolve: {
     extensions: ['.js', '.scss', '.json'],
+    modules: ['node_modules', resolve('src/sprite/generate')],
     alias: {
-      '@': resolve('src')
+      '@': resolve('src'),
+      '@sprite': resolve('src/sprite/generate')
     }
+  },
+  output: {
+    path: resolve('dist'),
+    publicPath: '/',
+    filename: 'script/[chunkhash].js',
+    chunkFilename: '[name].[chunhash].js'
   },
   module: {
     rules: [
@@ -25,11 +35,10 @@ module.exports = {
       {
         test: /\.scss$/,
         include: [resolve('src/style/')],
-        use: ['style-loader', 'css-loader', 'sass-loader', 'postcss-loader']
+        use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader']
       },
       {
         test: /\.html$/,
-        exclude: ['src/page/components'],
         use: [
           {
             loader: 'html-loader',
@@ -46,7 +55,7 @@ module.exports = {
             loader: 'url-loader',
             options: {
               limit: 2048,
-              outputPath:'static/image'
+              outputPath: 'static/image'
             }
           }
         ]
@@ -59,12 +68,5 @@ module.exports = {
       jQuery: 'jquery'
     }),
     new webpack.HashedModuleIdsPlugin()
-  ],
-  node: {
-    net: 'empty',
-    tls: 'empty',
-    dns: 'empty',
-    fs:'empty',
-    children_process:'empty'
-  }
-}
+  ]
+});
