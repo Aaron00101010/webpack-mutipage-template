@@ -43,5 +43,8 @@ module.exports = merge(commonConfig, {
   devServer: {
     contentBase: resolve('dist'),
     overlay: true
+  },
+  watchOptions: {
+    ignored: /node_modules/
   }
 });

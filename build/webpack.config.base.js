@@ -19,7 +19,8 @@ module.exports = {
       {
         test: /\.js$/,
         use: ['babel-loader', 'eslint-loader'],
-        include: [resolve('src/script/**/*.js')]
+        include: [resolve('src/script/**/*.js')],
+        exclude: /node_modules/,
       },
       {
         test: /\.scss$/,
@@ -58,5 +59,12 @@ module.exports = {
       jQuery: 'jquery'
     }),
     new webpack.HashedModuleIdsPlugin()
-  ]
+  ],
+  node: {
+    net: 'empty',
+    tls: 'empty',
+    dns: 'empty',
+    fs:'empty',
+    children_process:'empty'
+  }
 }
