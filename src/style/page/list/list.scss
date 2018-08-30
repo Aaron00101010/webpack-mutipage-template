@@ -1,0 +1,5 @@
+@import '@sprite/list/sprite';
+
+.icon-list {
+  @include sprite($customer-review);
+}

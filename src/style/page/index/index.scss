@@ -1,12 +1,26 @@
-@import '@sprite/index/sprite.scss';
+@import "@sprite/index/sprite.scss";
+
 img {
+  border: 1px solid #fff;
+  color: #fff;
   margin: 30px;
+  outline-color: #000;
+  position: relative;
   transform: rotate3d(1, 2, 3, 5deg);
 }
+
 body {
-  background: cadetblue url('../../../image/page/index/index.jpg');
+  background: cadetblue url("~@/image/page/index/index.jpg");
+  background-attachment: fixed;
 }
 
-.icon-index{
+b  {
+}
+
+a {
+  color: #000;
+}
+
+.icon-index {
   @include sprite($web-optimization);
 }

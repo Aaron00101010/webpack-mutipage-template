@@ -1,8 +1,8 @@
-@import './reset.scss';
-@import './header.scss';
-@import './footer.scss';
-@import '@sprite/common/sprite.scss';
+@import "./reset.scss";
+@import "./header.scss";
+@import "./footer.scss";
+@import "@sprite/common/sprite.scss";
 
-.icon-report{
+.icon-report {
   @include sprite($report);
 }

@@ -1,0 +1,9 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-recommended-scss"],
+  "plugins": ["stylelint-scss", "stylelint-order"],
+  "rules": {
+    "max-nesting-depth": 2,
+    "order/order": ["custom-properties", "declarations"],
+    "order/properties-alphabetical-order": true
+  }
+}
