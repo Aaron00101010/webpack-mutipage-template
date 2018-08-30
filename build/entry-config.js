@@ -1,13 +1,14 @@
-// 多文件，entry，HTMLWebpackPlugin配置
+// 多页面配置
 const glob = require('glob')
-const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+// const PreloadWebpackPlugin = require('preload-webpack-plugin')
+const { resolve } = require('./utils')
 
-const entries = glob.sync(path.resolve(__dirname, '..', 'src/page/**/*.js'))
+const entries = glob.sync(resolve('src/page/**/*.js'))
 const entriesOpt = {}
-const htmlTemplateOpt = []
+const pluginsOpt = []
 
-const faviconPath = path.resolve(__dirname, '..', 'src/image/favicon/favicon.png')
+const faviconPath = resolve('src/image/favicon/favicon.png')
 
 entries.forEach(item => {
   const chunkName = item.match(/src\/page\/(.+)\.js/)[1]
@@ -20,20 +21,26 @@ entries.forEach(item => {
 
   entriesOpt[chunkName] = item
 
-  htmlTemplateOpt.push(
+  pluginsOpt.push(
     new HtmlWebpackPlugin({
       favicon: faviconPath,
       filename: fileName,
       template: templatePath,
-      hash: true,
-      chunks: [chunkName]
+      chunks: [chunkName],
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true,
+        removeAttributeQuotes: true
+      }
     })
   )
 })
 
+// pluginsOpt.push(new PreloadWebpackPlugin({ rel: 'prefetch' }))
+
 const config = {
   entry: entriesOpt,
-  plugins: htmlTemplateOpt
+  plugins: pluginsOpt
 }
 
 module.exports = config

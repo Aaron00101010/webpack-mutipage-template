@@ -1,12 +1,8 @@
-const path = require('path')
 const webpack = require('webpack')
 const merge = require('webpack-merge')
 const enteriesConfig = require('./entry-config')
 const spriteConfig = require('./sprite-config')
-
-function resolve (dir) {
-  return path.join(__dirname, '..', dir)
-}
+const { resolve } = require('./utils')
 
 let config = merge(enteriesConfig, spriteConfig, {
   context: resolve(''),
@@ -21,8 +17,8 @@ let config = merge(enteriesConfig, spriteConfig, {
   output: {
     path: resolve('dist'),
     publicPath: '/',
-    filename: 'script/[chunkhash].js',
-    chunkFilename: '[name].[chunhash].js'
+    filename: 'script/[name].[id].[contenthash].js',
+    chunkFilename: 'script/[name].[id].[contenthash].js'
   },
   module: {
     rules: [
@@ -54,7 +50,7 @@ let config = merge(enteriesConfig, spriteConfig, {
             loader: 'url-loader',
             options: {
               limit: 2048,
-              outputPath: 'static/image'
+              outputPath: 'image'
             }
           }
         ]

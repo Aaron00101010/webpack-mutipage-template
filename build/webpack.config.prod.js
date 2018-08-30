@@ -1,41 +1,51 @@
-const path = require('path')
+// const webpack = require('webpack')
 const merge = require('webpack-merge')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 const UglifyWebpackPlugin = require('uglifyjs-webpack-plugin')
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
+  .BundleAnalyzerPlugin
 
 const baseConfig = require('./webpack.config.base')
-
-function resolve (dir) {
-  return path.join(__dirname, '..', dir)
-}
+const { resolve } = require('./utils')
 
 module.exports = merge(baseConfig, {
   mode: 'production',
+  // devtool: '#@cheap-source-map',
   module: {
-    rules: [{
-      test: /\.s?css$/,
-      include: [resolve('src/style')],
-      use: [
-        MiniCssExtractPlugin.loader,
-        'css-loader',
-        'sass-loader',
-        'postcss-loader'
-      ]
-    }]
+    rules: [
+      {
+        test: /\.s?css$/,
+        include: [resolve('src/style')],
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          'sass-loader',
+          'postcss-loader'
+        ]
+      }
+    ]
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'static/style/[name].[chunkhash].css',
-      chunkFilename: '[id].[hash].css'
+      filename: 'style/[name].[id].[contenthash].css',
+      chunkFilename: 'style/[name].[id].[contenthash].css'
     }),
-    new CleanWebpackPlugin([resolve('dist')], {root: resolve('')})
+    new CleanWebpackPlugin([resolve('dist')], { root: resolve('') }),
+    new BundleAnalyzerPlugin({
+      analyzerMode: 'static',
+      reportFilename: resolve('temp/report.html'),
+      generateStatsFile: true,
+      statsFilename: resolve('temp/report.json'),
+      openAnalyzer: false
+    })
   ],
   optimization: {
-    minimizer: [
-      new OptimizeCSSAssetsPlugin(),
-      new UglifyWebpackPlugin()
-    ]
+    splitChunks: {
+      chunks: 'all',
+      name: 'vendor'
+    },
+    minimizer: [new OptimizeCSSAssetsPlugin(), new UglifyWebpackPlugin()]
   }
 })

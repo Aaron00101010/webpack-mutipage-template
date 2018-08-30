@@ -14,12 +14,10 @@ body {
   background-attachment: fixed;
 }
 
-b  {
-}
-
 a {
   color: #000;
 }
+
 
 .icon-index {
   @include sprite($web-optimization);

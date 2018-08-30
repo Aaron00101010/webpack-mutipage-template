@@ -9,33 +9,22 @@
 //
 // At the bottom of this section, we provide information about the spritesheet itself
 // $spritesheet: width height image $spritesheet-sprites;
-$customer-review-name: "customer-review";
-$customer-review-x: 0;
-$customer-review-y: 0;
-$customer-review-offset-x: 0;
-$customer-review-offset-y: 0;
+$customer-review-name: 'customer-review';
+$customer-review-x: 0px;
+$customer-review-y: 0px;
+$customer-review-offset-x: 0px;
+$customer-review-offset-y: 0px;
 $customer-review-width: 512px;
 $customer-review-height: 512px;
 $customer-review-total-width: 512px;
 $customer-review-total-height: 512px;
-$customer-review-image: "~list/sprite.png";
-$customer-review: (
-  0,
-  0,
-  0,
-  0,
-  512px,
-  512px,
-  512px,
-  512px,
-  "~list/sprite.png",
-  "customer-review"
-);
+$customer-review-image: '~list/sprite.png';
+$customer-review: (0px, 0px, 0px, 0px, 512px, 512px, 512px, 512px, '~list/sprite.png', 'customer-review', );
 $spritesheet-width: 512px;
 $spritesheet-height: 512px;
-$spritesheet-image: "~list/sprite.png";
-$spritesheet-sprites: ($customer-review);
-$spritesheet: (512px, 512px, "~list/sprite.png", $spritesheet-sprites);
+$spritesheet-image: '~list/sprite.png';
+$spritesheet-sprites: ($customer-review, );
+$spritesheet: (512px, 512px, '~list/sprite.png', $spritesheet-sprites, );
 
 // The provided mixins are intended to be used with the array-like variables
 //
@@ -72,13 +61,11 @@ $spritesheet: (512px, 512px, "~list/sprite.png", $spritesheet-sprites);
 @mixin sprite-position($sprite) {
   $sprite-offset-x: nth($sprite, 3);
   $sprite-offset-y: nth($sprite, 4);
-
-  background-position: $sprite-offset-x $sprite-offset-y;
+  background-position: $sprite-offset-x  $sprite-offset-y;
 }
 
 @mixin sprite-image($sprite) {
   $sprite-image: nth($sprite, 9);
-
   background-image: url(#{$sprite-image});
 }
 
@@ -96,7 +83,6 @@ $spritesheet: (512px, 512px, "~list/sprite.png", $spritesheet-sprites);
 @mixin sprites($sprites) {
   @each $sprite in $sprites {
     $sprite-name: nth($sprite, 10);
-
     .#{$sprite-name} {
       @include sprite($sprite);
     }
