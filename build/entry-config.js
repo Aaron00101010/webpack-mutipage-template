@@ -1,7 +1,6 @@
 // 多页面配置
 const glob = require('glob')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-// const PreloadWebpackPlugin = require('preload-webpack-plugin')
 const { resolve } = require('./utils')
 
 const entries = glob.sync(resolve('src/page/**/*.js'))
@@ -31,8 +30,6 @@ entries.forEach(item => {
     })
   )
 })
-
-// pluginsOpt.push(new PreloadWebpackPlugin({ rel: 'prefetch' }))
 
 const config = {
   entry: entriesOpt,

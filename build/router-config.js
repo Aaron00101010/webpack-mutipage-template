@@ -1,5 +1,11 @@
-module.exports = [
-  { from: /^\/$/, to: '/page/index/index.html' },
-  { from: /^\/list/, to: '/page/list/list.html' },
-  { from: /^\/detail/, to: '/page/detail/detail.html' }
+const routerConfig = [
+  { path: '/', page: '/page/index/index.html' },
+  { path: '/list', page: '/page/list/list.html' },
+  { path: '/detail', page: '/page/detail/detail.html' }
 ]
+
+const webpackRouterConfig = routerConfig.map(item => {
+  return {from: new RegExp(item.path), to: item.page}
+})
+
+module.exports = {routerConfig, webpackRouterConfig}
