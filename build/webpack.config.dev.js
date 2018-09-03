@@ -1,6 +1,7 @@
 const merge = require('webpack-merge')
 
 const baseConfig = require('./webpack.config.base')
+const routerConfig = require('./router-config')
 const { resolve } = require('./utils')
 
 module.exports = merge(baseConfig, {
@@ -9,12 +10,7 @@ module.exports = merge(baseConfig, {
     contentBase: resolve('dist'),
     overlay: true,
     historyApiFallback: {
-      rewrites: [
-        { from: /^\/$/, to: '/page/index/index.html' },
-        { from: /^\/list/, to: '/page/list/list.html' },
-        { from: /^\/detail/, to: '/page/detail/detail.html' }
-        // { from: /.*/, to: '/page/index/index.html' }
-      ]
+      rewrites: routerConfig
     }
   },
   watchOptions: {

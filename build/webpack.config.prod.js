@@ -49,14 +49,6 @@ module.exports = smp.wrap(
       splitChunks: {
         chunks: 'all',
         name: 'vendor'
-        // cacheGroups: {
-        //   vendor: {
-        //     test: /node_modules/,
-        //     name: 'vendor',
-        //     chunks: 'all',
-        //     enforce: true
-        //   }
-        // }
       },
       minimizer: [new OptimizeCSSAssetsPlugin(), new UglifyWebpackPlugin()]
     }
