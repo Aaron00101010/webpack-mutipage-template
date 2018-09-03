@@ -15,10 +15,6 @@ entries.forEach(item => {
   const templatePath = item.replace(/.js$/, '.html')
   let fileName = templatePath.match(/src\/(page\/.+\.html$)/)[1]
 
-  if (chunkName === 'index/index') {
-    fileName = 'index.html'
-  }
-
   entriesOpt[chunkName] = item
 
   pluginsOpt.push(
@@ -26,7 +22,7 @@ entries.forEach(item => {
       favicon: faviconPath,
       filename: fileName,
       template: templatePath,
-      chunks: [chunkName],
+      chunks: ['vendor', chunkName],
       minify: {
         removeComments: true,
         collapseWhitespace: true,

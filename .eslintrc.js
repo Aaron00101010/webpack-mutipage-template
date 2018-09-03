@@ -1,3 +1,9 @@
+const globalLibsVarsConfig = require('./build/global-js-lib-config')
+
+for (key in globalLibsVarsConfig) {
+  globalLibsVarsConfig[key] = true
+}
+
 module.exports = {
   root: true,
   parserOptions: {
@@ -6,14 +12,10 @@ module.exports = {
   env: {
     browser: true
   },
-  extends: [
-    'standard'
-  ],
+  extends: ['standard'],
   rules: {
     'generator-star-spacing': 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
   },
-  globals: {
-    "$": true
-  }
-};
+  globals: globalLibsVarsConfig
+}

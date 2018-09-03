@@ -3,6 +3,7 @@ const merge = require('webpack-merge')
 const enteriesConfig = require('./entry-config')
 const spriteConfig = require('./sprite-config')
 const { resolve } = require('./utils')
+const globalLibsVarsConfig = require('./global-js-lib-config')
 
 let config = merge(enteriesConfig, spriteConfig, {
   context: resolve(''),
@@ -58,10 +59,7 @@ let config = merge(enteriesConfig, spriteConfig, {
     ]
   },
   plugins: [
-    new webpack.ProvidePlugin({
-      $: 'jquery',
-      jQuery: 'jquery'
-    }),
+    new webpack.ProvidePlugin(globalLibsVarsConfig),
     new webpack.HashedModuleIdsPlugin()
   ]
 })

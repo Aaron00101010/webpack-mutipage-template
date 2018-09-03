@@ -4,23 +4,24 @@
   "warnings": [
   ],
   "version": "4.17.1",
-  "hash": "b8df5fcbefa3d0acffc3",
-  "time": 6814,
-  "builtAt": 1535626325524,
+  "hash": "007ffa6befa975aa8c3d",
+  "time": 6013,
+  "builtAt": 1535967328752,
   "publicPath": "/",
   "outputPath": "G:\\POI\\webpack-mutipage-template\\dist",
   "assetsByChunkName": {
     "vendor": [
-      "style/vendor.0.e3e05c205bae1b476234.css",
+      "style/vendor.0.45cbd40ed0517b0981d8.css",
       "script/vendor.0.9a2c637d739f681e9f70.js"
     ],
+    "detail/detail": "script/detail/detail.1.abf2a94653fdd71734c3.js",
     "index/index": [
-      "style/index/index.1.ec299b9c3f615a9fb5e2.css",
-      "script/index/index.1.0d1caa80cdb3959790f1.js"
+      "style/index/index.2.755ed615d0450cee4f94.css",
+      "script/index/index.2.7ceb0edca51a39c64383.js"
     ],
     "list/list": [
-      "style/list/list.2.0e0b5028a75665134568.css",
-      "script/list/list.2.e79b930cfcc49f2724c1.js"
+      "style/list/list.3.0e0b5028a75665134568.css",
+      "script/list/list.3.b789ea104212c7d8a5f3.js"
     ]
   },
   "assets": [
@@ -36,10 +37,21 @@
       "emitted": true
     },
     {
-      "name": "script/index/index.1.0d1caa80cdb3959790f1.js",
-      "size": 1871,
+      "name": "script/detail/detail.1.abf2a94653fdd71734c3.js",
+      "size": 1777,
       "chunks": [
         1
+      ],
+      "chunkNames": [
+        "detail/detail"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "script/index/index.2.7ceb0edca51a39c64383.js",
+      "size": 1854,
+      "chunks": [
+        2
       ],
       "chunkNames": [
         "index/index"
@@ -47,10 +59,10 @@
       "emitted": true
     },
     {
-      "name": "script/list/list.2.e79b930cfcc49f2724c1.js",
+      "name": "script/list/list.3.b789ea104212c7d8a5f3.js",
       "size": 1767,
       "chunks": [
-        2
+        3
       ],
       "chunkNames": [
         "list/list"
@@ -60,16 +72,31 @@
   ],
   "filteredAssets": 0,
   "entrypoints": {
-    "index/index": {
+    "detail/detail": {
       "chunks": [
         0,
         1
       ],
       "assets": [
-        "style/vendor.0.e3e05c205bae1b476234.css",
+        "style/vendor.0.45cbd40ed0517b0981d8.css",
         "script/vendor.0.9a2c637d739f681e9f70.js",
-        "style/index/index.1.ec299b9c3f615a9fb5e2.css",
-        "script/index/index.1.0d1caa80cdb3959790f1.js"
+        "script/detail/detail.1.abf2a94653fdd71734c3.js"
+      ],
+      "children": {
+      },
+      "childAssets": {
+      }
+    },
+    "index/index": {
+      "chunks": [
+        0,
+        2
+      ],
+      "assets": [
+        "style/vendor.0.45cbd40ed0517b0981d8.css",
+        "script/vendor.0.9a2c637d739f681e9f70.js",
+        "style/index/index.2.755ed615d0450cee4f94.css",
+        "script/index/index.2.7ceb0edca51a39c64383.js"
       ],
       "children": {
       },
@@ -79,13 +106,13 @@
     "list/list": {
       "chunks": [
         0,
-        2
+        3
       ],
       "assets": [
-        "style/vendor.0.e3e05c205bae1b476234.css",
+        "style/vendor.0.45cbd40ed0517b0981d8.css",
         "script/vendor.0.9a2c637d739f681e9f70.js",
-        "style/list/list.2.0e0b5028a75665134568.css",
-        "script/list/list.2.e79b930cfcc49f2724c1.js"
+        "style/list/list.3.0e0b5028a75665134568.css",
+        "script/list/list.3.b789ea104212c7d8a5f3.js"
       ],
       "children": {
       },
@@ -94,16 +121,31 @@
     }
   },
   "namedChunkGroups": {
-    "index/index": {
+    "detail/detail": {
       "chunks": [
         0,
         1
       ],
       "assets": [
-        "style/vendor.0.e3e05c205bae1b476234.css",
+        "style/vendor.0.45cbd40ed0517b0981d8.css",
         "script/vendor.0.9a2c637d739f681e9f70.js",
-        "style/index/index.1.ec299b9c3f615a9fb5e2.css",
-        "script/index/index.1.0d1caa80cdb3959790f1.js"
+        "script/detail/detail.1.abf2a94653fdd71734c3.js"
+      ],
+      "children": {
+      },
+      "childAssets": {
+      }
+    },
+    "index/index": {
+      "chunks": [
+        0,
+        2
+      ],
+      "assets": [
+        "style/vendor.0.45cbd40ed0517b0981d8.css",
+        "script/vendor.0.9a2c637d739f681e9f70.js",
+        "style/index/index.2.755ed615d0450cee4f94.css",
+        "script/index/index.2.7ceb0edca51a39c64383.js"
       ],
       "children": {
       },
@@ -113,13 +155,13 @@
     "list/list": {
       "chunks": [
         0,
-        2
+        3
       ],
       "assets": [
-        "style/vendor.0.e3e05c205bae1b476234.css",
+        "style/vendor.0.45cbd40ed0517b0981d8.css",
         "script/vendor.0.9a2c637d739f681e9f70.js",
-        "style/list/list.2.0e0b5028a75665134568.css",
-        "script/list/list.2.e79b930cfcc49f2724c1.js"
+        "style/list/list.3.0e0b5028a75665134568.css",
+        "script/list/list.3.b789ea104212c7d8a5f3.js"
       ],
       "children": {
       },
@@ -134,18 +176,19 @@
       "initial": true,
       "entry": false,
       "reason": "split chunk (cache group: vendors) (name: vendor)",
-      "size": 289434,
+      "size": 289438,
       "names": [
         "vendor"
       ],
       "files": [
-        "style/vendor.0.e3e05c205bae1b476234.css",
+        "style/vendor.0.45cbd40ed0517b0981d8.css",
         "script/vendor.0.9a2c637d739f681e9f70.js"
       ],
-      "hash": "eefa48a279b00b4d26eb",
+      "hash": "781f63ce03d2b7e7aa34",
       "siblings": [
         1,
-        2
+        2,
+        3
       ],
       "parents": [
       ],
@@ -173,9 +216,9 @@
           "issuerName": "./node_modules/style-loader/lib/addStyles.js",
           "issuerPath": [
             {
-              "id": "Run9",
-              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-              "name": "./src/page/index/index.js"
+              "id": "Iiyj",
+              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+              "name": "./src/page/detail/detail.js"
             },
             {
               "id": "By7j",
@@ -219,7 +262,7 @@
           "name": "css ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/common/common.scss",
           "index": 4,
           "index2": 1,
-          "size": 2404,
+          "size": 2408,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -231,9 +274,9 @@
           "issuerName": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js!./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/common/common.scss",
           "issuerPath": [
             {
-              "id": "Run9",
-              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-              "name": "./src/page/index/index.js"
+              "id": "Iiyj",
+              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+              "name": "./src/page/detail/detail.js"
             },
             {
               "id": "By7j",
@@ -281,14 +324,14 @@
           "chunks": [
             0
           ],
-          "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-          "issuerId": "Run9",
-          "issuerName": "./src/page/index/index.js",
+          "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+          "issuerId": "Iiyj",
+          "issuerName": "./src/page/detail/detail.js",
           "issuerPath": [
             {
-              "id": "Run9",
-              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-              "name": "./src/page/index/index.js"
+              "id": "Iiyj",
+              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+              "name": "./src/page/detail/detail.js"
             }
           ],
           "failed": false,
@@ -302,6 +345,15 @@
               "moduleIdentifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\list\\list.js",
               "module": "./src/page/list/list.js",
               "moduleName": "./src/page/list/list.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "@/style/common/common",
+              "loc": "1:0-31"
+            },
+            {
+              "moduleId": "Iiyj",
+              "moduleIdentifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+              "module": "./src/page/detail/detail.js",
+              "moduleName": "./src/page/detail/detail.js",
               "type": "harmony side effect evaluation",
               "userRequest": "@/style/common/common",
               "loc": "1:0-31"
@@ -339,14 +391,14 @@
           "chunks": [
             0
           ],
-          "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-          "issuerId": "Run9",
-          "issuerName": "./src/page/index/index.js",
+          "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+          "issuerId": "Iiyj",
+          "issuerName": "./src/page/detail/detail.js",
           "issuerPath": [
             {
-              "id": "Run9",
-              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-              "name": "./src/page/index/index.js"
+              "id": "Iiyj",
+              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+              "name": "./src/page/detail/detail.js"
             }
           ],
           "failed": false,
@@ -355,6 +407,15 @@
           "assets": [
           ],
           "reasons": [
+            {
+              "moduleId": "Iiyj",
+              "moduleIdentifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+              "module": "./src/page/detail/detail.js",
+              "moduleName": "./src/page/detail/detail.js",
+              "type": "cjs require",
+              "userRequest": "$",
+              "loc": "1:0-17"
+            },
             {
               "moduleId": "Run9",
               "moduleIdentifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
@@ -470,9 +531,9 @@
           "issuerName": "./src/style/common/common.scss",
           "issuerPath": [
             {
-              "id": "Run9",
-              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-              "name": "./src/page/index/index.js"
+              "id": "Iiyj",
+              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+              "name": "./src/page/detail/detail.js"
             },
             {
               "id": "By7j",
@@ -524,9 +585,9 @@
           "issuerName": "./src/style/common/common.scss",
           "issuerPath": [
             {
-              "id": "Run9",
-              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-              "name": "./src/page/index/index.js"
+              "id": "Iiyj",
+              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+              "name": "./src/page/detail/detail.js"
             },
             {
               "id": "By7j",
@@ -584,6 +645,15 @@
           "module": "",
           "moduleIdentifier": "",
           "moduleName": "",
+          "loc": "detail/detail",
+          "request": "G:/POI/webpack-mutipage-template/src/page/detail/detail.js",
+          "reasons": [
+          ]
+        },
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
           "loc": "index/index",
           "request": "G:/POI/webpack-mutipage-template/src/page/index/index.js",
           "reasons": [
@@ -605,15 +675,157 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 2861,
+      "size": 282,
+      "names": [
+        "detail/detail"
+      ],
+      "files": [
+        "script/detail/detail.1.abf2a94653fdd71734c3.js"
+      ],
+      "hash": "50ea980b3865b07b9d03",
+      "siblings": [
+        0
+      ],
+      "parents": [
+      ],
+      "children": [
+      ],
+      "childrenByOrder": {
+      },
+      "modules": [
+        {
+          "id": "Iiyj",
+          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+          "name": "./src/page/detail/detail.js",
+          "index": 0,
+          "index2": 8,
+          "size": 163,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "G:/POI/webpack-mutipage-template/src/page/detail/detail.js",
+              "loc": "detail/detail"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module uses injected variables ($)"
+          ],
+          "depth": 0,
+          "source": "import '@/style/common/common';\nimport { formatMoney } from '@/script/util/format';\n\n$(document.body).append($('<h1>' + formatMoney(66666666666666.23) + '</h1>'));",
+          "parsedSrc": "function(e,n,t){\"use strict\";t.r(n),function(e){t(\"By7j\");var n=t(\"L4VJ\");e(document.body).append(e(\"<h1>\"+Object(n.a)(66666666666666.23)+\"</h1>\"))}.call(this,t(\"EVdn\"))}"
+        },
+        {
+          "id": "L4VJ",
+          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\script\\util\\format.js",
+          "name": "./src/script/util/format.js",
+          "index": 8,
+          "index2": 7,
+          "size": 119,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+          "issuerId": "Iiyj",
+          "issuerName": "./src/page/detail/detail.js",
+          "issuerPath": [
+            {
+              "id": "Iiyj",
+              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+              "name": "./src/page/detail/detail.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": "Iiyj",
+              "moduleIdentifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+              "module": "./src/page/detail/detail.js",
+              "moduleName": "./src/page/detail/detail.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "@/script/util/format",
+              "loc": "2:0-51"
+            },
+            {
+              "moduleId": "Iiyj",
+              "moduleIdentifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+              "module": "./src/page/detail/detail.js",
+              "moduleName": "./src/page/detail/detail.js",
+              "type": "harmony import specifier",
+              "userRequest": "@/script/util/format",
+              "loc": "4:35-46"
+            }
+          ],
+          "usedExports": [
+            "formatMoney"
+          ],
+          "providedExports": [
+            "formatMoney"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 1,
+          "source": "function formatMoney(amount) {\n  console.log(2333);\n  return Number(amount).toLocaleString();\n}\nexport { formatMoney };",
+          "parsedSrc": "function(e,n,t){\"use strict\";function r(e){return console.log(2333),Number(e).toLocaleString()}t.d(n,\"a\",function(){return r})}"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "detail/detail",
+          "request": "G:/POI/webpack-mutipage-template/src/page/detail/detail.js",
+          "reasons": [
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 2727,
       "names": [
         "index/index"
       ],
       "files": [
-        "style/index/index.1.ec299b9c3f615a9fb5e2.css",
-        "script/index/index.1.0d1caa80cdb3959790f1.js"
+        "style/index/index.2.755ed615d0450cee4f94.css",
+        "script/index/index.2.7ceb0edca51a39c64383.js"
       ],
-      "hash": "a8f45b280bbd4cf8c076",
+      "hash": "b38c9fbbe04ef841862a",
       "siblings": [
         0
       ],
@@ -628,14 +840,14 @@
           "id": 1,
           "identifier": "css G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\index\\index.scss 0",
           "name": "css ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/page/index/index.scss",
-          "index": 10,
-          "index2": 7,
-          "size": 2717,
+          "index": 12,
+          "index2": 9,
+          "size": 2601,
           "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
-            1
+            2
           ],
           "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\index\\index.scss",
           "issuerId": "SKLG",
@@ -682,15 +894,15 @@
           "id": "KBjc",
           "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\style-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\index\\index.scss",
           "name": "./src/style/page/index/index.scss",
-          "index": 8,
-          "index2": 9,
+          "index": 10,
+          "index2": 11,
           "size": 2062,
           "cacheable": true,
           "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [
-            1
+            2
           ],
           "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
           "issuerId": "Run9",
@@ -731,15 +943,15 @@
           "id": "Run9",
           "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
           "name": "./src/page/index/index.js",
-          "index": 0,
-          "index2": 10,
-          "size": 144,
+          "index": 9,
+          "index2": 12,
+          "size": 126,
           "cacheable": true,
           "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [
-            1
+            2
           ],
           "issuer": null,
           "issuerId": null,
@@ -768,22 +980,22 @@
             "ModuleConcatenation bailout: Module uses injected variables ($)"
           ],
           "depth": 0,
-          "source": "import '@/style/common/common';\nimport '@/style/page/index/index';\n\n$(document.body).animate({ 'padding-top': '50px' }, 2000);\nconsole.log(123);",
-          "parsedSrc": "function(e,n,t){\"use strict\";t.r(n),function(e){t(\"By7j\"),t(\"KBjc\");e(document.body).animate({\"padding-top\":\"50px\"},2e3),console.log(123)}.call(this,t(\"EVdn\"))}"
+          "source": "import '@/style/common/common';\nimport '@/style/page/index/index';\n\n$(document.body).animate({ 'padding-top': '50px' }, 2000);",
+          "parsedSrc": "function(e,n,t){\"use strict\";t.r(n),function(e){t(\"By7j\"),t(\"KBjc\");e(document.body).animate({\"padding-top\":\"50px\"},2e3)}.call(this,t(\"EVdn\"))}"
         },
         {
           "id": "SKLG",
           "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\index\\index.scss",
           "name": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js!./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/page/index/index.scss",
-          "index": 9,
-          "index2": 8,
+          "index": 11,
+          "index2": 10,
           "size": 168,
           "cacheable": true,
           "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [
-            1
+            2
           ],
           "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\style-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\index\\index.scss",
           "issuerId": "KBjc",
@@ -840,7 +1052,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 3,
       "rendered": true,
       "initial": true,
       "entry": true,
@@ -849,10 +1061,10 @@
         "list/list"
       ],
       "files": [
-        "style/list/list.2.0e0b5028a75665134568.css",
-        "script/list/list.2.e79b930cfcc49f2724c1.js"
+        "style/list/list.3.0e0b5028a75665134568.css",
+        "script/list/list.3.b789ea104212c7d8a5f3.js"
       ],
-      "hash": "91301cb8202934dc4f80",
+      "hash": "33091efb845489890a03",
       "siblings": [
         0
       ],
@@ -867,14 +1079,14 @@
           "id": 2,
           "identifier": "css G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\list\\list.scss 0",
           "name": "css ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/page/list/list.scss",
-          "index": 14,
-          "index2": 11,
+          "index": 16,
+          "index2": 13,
           "size": 2377,
           "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
-            2
+            3
           ],
           "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\list\\list.scss",
           "issuerId": "omyd",
@@ -921,15 +1133,15 @@
           "id": "Bwg1",
           "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\list\\list.js",
           "name": "./src/page/list/list.js",
-          "index": 11,
-          "index2": 14,
+          "index": 13,
+          "index2": 16,
           "size": 64,
           "cacheable": true,
           "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [
-            2
+            3
           ],
           "issuer": null,
           "issuerId": null,
@@ -965,15 +1177,15 @@
           "id": "jCcl",
           "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\style-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\list\\list.scss",
           "name": "./src/style/page/list/list.scss",
-          "index": 12,
-          "index2": 13,
+          "index": 14,
+          "index2": 15,
           "size": 2059,
           "cacheable": true,
           "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [
-            2
+            3
           ],
           "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\list\\list.js",
           "issuerId": "Bwg1",
@@ -1014,15 +1226,15 @@
           "id": "omyd",
           "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\list\\list.scss",
           "name": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js!./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/page/list/list.scss",
-          "index": 13,
-          "index2": 12,
+          "index": 15,
+          "index2": 14,
           "size": 168,
           "cacheable": true,
           "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [
-            2
+            3
           ],
           "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\style-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\list\\list.scss",
           "issuerId": "jCcl",
@@ -1086,7 +1298,7 @@
       "name": "css ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/common/common.scss",
       "index": 4,
       "index2": 1,
-      "size": 240,
+      "size": 244,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -1098,9 +1310,9 @@
       "issuerName": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js!./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/common/common.scss",
       "issuerPath": [
         {
-          "id": "Run9",
-          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-          "name": "./src/page/index/index.js"
+          "id": "Iiyj",
+          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+          "name": "./src/page/detail/detail.js"
         },
         {
           "id": "By7j",
@@ -1137,14 +1349,14 @@
       "id": 1,
       "identifier": "css G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\index\\index.scss 0",
       "name": "css ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/page/index/index.scss",
-      "index": 10,
-      "index2": 7,
-      "size": 487,
+      "index": 12,
+      "index2": 9,
+      "size": 371,
       "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
-        1
+        2
       ],
       "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\index\\index.scss",
       "issuerId": "SKLG",
@@ -1190,15 +1402,15 @@
       "id": "SKLG",
       "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\index\\index.scss",
       "name": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js!./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/page/index/index.scss",
-      "index": 9,
-      "index2": 8,
+      "index": 11,
+      "index2": 10,
       "size": 168,
       "cacheable": true,
       "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
-        1
+        2
       ],
       "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\style-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\index\\index.scss",
       "issuerId": "KBjc",
@@ -1243,14 +1455,14 @@
       "id": 2,
       "identifier": "css G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\list\\list.scss 0",
       "name": "css ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/page/list/list.scss",
-      "index": 14,
-      "index2": 11,
+      "index": 16,
+      "index2": 13,
       "size": 150,
       "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
-        2
+        3
       ],
       "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\list\\list.scss",
       "issuerId": "omyd",
@@ -1311,9 +1523,9 @@
       "issuerName": "./node_modules/style-loader/lib/addStyles.js",
       "issuerPath": [
         {
-          "id": "Run9",
-          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-          "name": "./src/page/index/index.js"
+          "id": "Iiyj",
+          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+          "name": "./src/page/detail/detail.js"
         },
         {
           "id": "By7j",
@@ -1354,15 +1566,15 @@
       "id": "Bwg1",
       "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\list\\list.js",
       "name": "./src/page/list/list.js",
-      "index": 11,
-      "index2": 14,
+      "index": 13,
+      "index2": 16,
       "size": 64,
       "cacheable": true,
       "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
-        2
+        3
       ],
       "issuer": null,
       "issuerId": null,
@@ -1407,14 +1619,14 @@
       "chunks": [
         0
       ],
-      "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-      "issuerId": "Run9",
-      "issuerName": "./src/page/index/index.js",
+      "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+      "issuerId": "Iiyj",
+      "issuerName": "./src/page/detail/detail.js",
       "issuerPath": [
         {
-          "id": "Run9",
-          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-          "name": "./src/page/index/index.js"
+          "id": "Iiyj",
+          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+          "name": "./src/page/detail/detail.js"
         }
       ],
       "failed": false,
@@ -1428,6 +1640,15 @@
           "moduleIdentifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\list\\list.js",
           "module": "./src/page/list/list.js",
           "moduleName": "./src/page/list/list.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "@/style/common/common",
+          "loc": "1:0-31"
+        },
+        {
+          "moduleId": "Iiyj",
+          "moduleIdentifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+          "module": "./src/page/detail/detail.js",
+          "moduleName": "./src/page/detail/detail.js",
           "type": "harmony side effect evaluation",
           "userRequest": "@/style/common/common",
           "loc": "1:0-31"
@@ -1464,14 +1685,14 @@
       "chunks": [
         0
       ],
-      "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-      "issuerId": "Run9",
-      "issuerName": "./src/page/index/index.js",
+      "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+      "issuerId": "Iiyj",
+      "issuerName": "./src/page/detail/detail.js",
       "issuerPath": [
         {
-          "id": "Run9",
-          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-          "name": "./src/page/index/index.js"
+          "id": "Iiyj",
+          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+          "name": "./src/page/detail/detail.js"
         }
       ],
       "failed": false,
@@ -1480,6 +1701,15 @@
       "assets": [
       ],
       "reasons": [
+        {
+          "moduleId": "Iiyj",
+          "moduleIdentifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+          "module": "./src/page/detail/detail.js",
+          "moduleName": "./src/page/detail/detail.js",
+          "type": "cjs require",
+          "userRequest": "$",
+          "loc": "1:0-17"
+        },
         {
           "moduleId": "Run9",
           "moduleIdentifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
@@ -1575,18 +1805,61 @@
       "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
     },
     {
-      "id": "KBjc",
-      "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\style-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\index\\index.scss",
-      "name": "./src/style/page/index/index.scss",
-      "index": 8,
-      "index2": 9,
-      "size": 2062,
+      "id": "Iiyj",
+      "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+      "name": "./src/page/detail/detail.js",
+      "index": 0,
+      "index2": 8,
+      "size": 163,
       "cacheable": true,
       "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
         1
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "G:/POI/webpack-mutipage-template/src/page/detail/detail.js",
+          "loc": "detail/detail"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+      ],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module uses injected variables ($)"
+      ],
+      "depth": 0,
+      "source": "import '@/style/common/common';\nimport { formatMoney } from '@/script/util/format';\n\n$(document.body).append($('<h1>' + formatMoney(66666666666666.23) + '</h1>'));"
+    },
+    {
+      "id": "KBjc",
+      "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\style-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\index\\index.scss",
+      "name": "./src/style/page/index/index.scss",
+      "index": 10,
+      "index2": 11,
+      "size": 2062,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
       ],
       "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
       "issuerId": "Run9",
@@ -1623,6 +1896,66 @@
       "source": "\nvar content = require(\"!!../../../../node_modules/css-loader/index.js!../../../../node_modules/postcss-loader/lib/index.js!../../../../node_modules/sass-loader/lib/loader.js!../../../../node_modules/mini-css-extract-plugin/dist/loader.js!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!../../../../node_modules/postcss-loader/lib/index.js!./index.scss\");\n\nif(typeof content === 'string') content = [[module.id, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = require(\"!../../../../node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(module.hot) {\n\tmodule.hot.accept(\"!!../../../../node_modules/css-loader/index.js!../../../../node_modules/postcss-loader/lib/index.js!../../../../node_modules/sass-loader/lib/loader.js!../../../../node_modules/mini-css-extract-plugin/dist/loader.js!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!../../../../node_modules/postcss-loader/lib/index.js!./index.scss\", function() {\n\t\tvar newContent = require(\"!!../../../../node_modules/css-loader/index.js!../../../../node_modules/postcss-loader/lib/index.js!../../../../node_modules/sass-loader/lib/loader.js!../../../../node_modules/mini-css-extract-plugin/dist/loader.js!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!../../../../node_modules/postcss-loader/lib/index.js!./index.scss\");\n\n\t\tif(typeof newContent === 'string') newContent = [[module.id, newContent, '']];\n\n\t\tvar locals = (function(a, b) {\n\t\t\tvar key, idx = 0;\n\n\t\t\tfor(key in a) {\n\t\t\t\tif(!b || a[key] !== b[key]) return false;\n\t\t\t\tidx++;\n\t\t\t}\n\n\t\t\tfor(key in b) idx--;\n\n\t\t\treturn idx === 0;\n\t\t}(content.locals, newContent.locals));\n\n\t\tif(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');\n\n\t\tupdate(newContent);\n\t});\n\n\tmodule.hot.dispose(function() { update(); });\n}"
     },
     {
+      "id": "L4VJ",
+      "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\script\\util\\format.js",
+      "name": "./src/script/util/format.js",
+      "index": 8,
+      "index2": 7,
+      "size": 119,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+      "issuerId": "Iiyj",
+      "issuerName": "./src/page/detail/detail.js",
+      "issuerPath": [
+        {
+          "id": "Iiyj",
+          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+          "name": "./src/page/detail/detail.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": "Iiyj",
+          "moduleIdentifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+          "module": "./src/page/detail/detail.js",
+          "moduleName": "./src/page/detail/detail.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "@/script/util/format",
+          "loc": "2:0-51"
+        },
+        {
+          "moduleId": "Iiyj",
+          "moduleIdentifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+          "module": "./src/page/detail/detail.js",
+          "moduleName": "./src/page/detail/detail.js",
+          "type": "harmony import specifier",
+          "userRequest": "@/script/util/format",
+          "loc": "4:35-46"
+        }
+      ],
+      "usedExports": [
+        "formatMoney"
+      ],
+      "providedExports": [
+        "formatMoney"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 1,
+      "source": "function formatMoney(amount) {\n  console.log(2333);\n  return Number(amount).toLocaleString();\n}\nexport { formatMoney };"
+    },
+    {
       "id": "Mdb4",
       "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\common\\common.scss",
       "name": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js!./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/common/common.scss",
@@ -1641,9 +1974,9 @@
       "issuerName": "./src/style/common/common.scss",
       "issuerPath": [
         {
-          "id": "Run9",
-          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-          "name": "./src/page/index/index.js"
+          "id": "Iiyj",
+          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+          "name": "./src/page/detail/detail.js"
         },
         {
           "id": "By7j",
@@ -1679,15 +2012,15 @@
       "id": "Run9",
       "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
       "name": "./src/page/index/index.js",
-      "index": 0,
-      "index2": 10,
-      "size": 144,
+      "index": 9,
+      "index2": 12,
+      "size": 126,
       "cacheable": true,
       "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
-        1
+        2
       ],
       "issuer": null,
       "issuerId": null,
@@ -1716,7 +2049,7 @@
         "ModuleConcatenation bailout: Module uses injected variables ($)"
       ],
       "depth": 0,
-      "source": "import '@/style/common/common';\nimport '@/style/page/index/index';\n\n$(document.body).animate({ 'padding-top': '50px' }, 2000);\nconsole.log(123);"
+      "source": "import '@/style/common/common';\nimport '@/style/page/index/index';\n\n$(document.body).animate({ 'padding-top': '50px' }, 2000);"
     },
     {
       "id": "aET+",
@@ -1737,9 +2070,9 @@
       "issuerName": "./src/style/common/common.scss",
       "issuerPath": [
         {
-          "id": "Run9",
-          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-          "name": "./src/page/index/index.js"
+          "id": "Iiyj",
+          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+          "name": "./src/page/detail/detail.js"
         },
         {
           "id": "By7j",
@@ -1793,15 +2126,15 @@
       "id": "jCcl",
       "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\style-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\list\\list.scss",
       "name": "./src/style/page/list/list.scss",
-      "index": 12,
-      "index2": 13,
+      "index": 14,
+      "index2": 15,
       "size": 2059,
       "cacheable": true,
       "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
-        2
+        3
       ],
       "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\list\\list.js",
       "issuerId": "Bwg1",
@@ -1841,15 +2174,15 @@
       "id": "omyd",
       "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\list\\list.scss",
       "name": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js!./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/page/list/list.scss",
-      "index": 13,
-      "index2": 12,
+      "index": 15,
+      "index2": 14,
       "size": 168,
       "cacheable": true,
       "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
-        2
+        3
       ],
       "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\style-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\list\\list.scss",
       "issuerId": "jCcl",
@@ -1904,16 +2237,8 @@
       },
       "assets": [
         {
-          "name": "image/3b05b1c58bdd1162083b57bbcce58d52.jpg",
-          "size": 65486,
-          "chunks": [
-          ],
-          "chunkNames": [
-          ]
-        },
-        {
-          "name": "index.html",
-          "size": 4775,
+          "name": "page/detail/detail.html",
+          "size": 4505,
           "chunks": [
             0
           ],
@@ -1928,7 +2253,7 @@
             0
           ],
           "assets": [
-            "index.html"
+            "page/detail/detail.html"
           ],
           "children": {
           },
@@ -1942,7 +2267,7 @@
             0
           ],
           "assets": [
-            "index.html"
+            "page/detail/detail.html"
           ],
           "children": {
           },
@@ -1956,13 +2281,485 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 813,
+          "size": 613,
           "names": [
           ],
           "files": [
-            "index.html"
+            "page/detail/detail.html"
           ],
-          "hash": "29f3d7ad2618780ef2e8",
+          "hash": "ca0a825705527c4bb99d",
+          "siblings": [
+          ],
+          "parents": [
+          ],
+          "children": [
+          ],
+          "childrenByOrder": {
+          },
+          "modules": [
+            {
+              "id": "Egy3",
+              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-webpack-plugin\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html",
+              "index": 0,
+              "index2": 3,
+              "size": 298,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [
+              ],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-webpack-plugin\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.html"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 0,
+              "source": "module.exports = \"<!DOCTYPE html>\\n<html lang=\\\"zh\\\">\\n\\n<head>\\n  \" + require('../components/meta.html') + \"\\n  <title>\\n    首页\\n  </title>\\n</head>\\n\\n<body>\\n  \" + require('../components/header.html') + \"\\n  <h3>detail</h3>\\n  \" + require('../components/footer.html') + \"\\n</body>\\n\\n</html>\\n\";"
+            },
+            {
+              "id": "RZzn",
+              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\components\\header.html",
+              "name": "./src/page/components/header.html",
+              "index": 2,
+              "index2": 1,
+              "size": 68,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-webpack-plugin\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.html",
+              "issuerId": "Egy3",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html",
+              "issuerPath": [
+                {
+                  "id": "Egy3",
+                  "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-webpack-plugin\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [
+              ],
+              "reasons": [
+                {
+                  "moduleId": "Egy3",
+                  "moduleIdentifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-webpack-plugin\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html",
+                  "type": "cjs require",
+                  "userRequest": "../components/header.html",
+                  "loc": "1:167-203"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1,
+              "source": "module.exports = \"<header>\\n  <h3>Here is header</h3>\\n</header>\\n\";"
+            },
+            {
+              "id": "f6mh",
+              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\components\\meta.html",
+              "name": "./src/page/components/meta.html",
+              "index": 1,
+              "index2": 0,
+              "size": 179,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-webpack-plugin\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.html",
+              "issuerId": "Egy3",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html",
+              "issuerPath": [
+                {
+                  "id": "Egy3",
+                  "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-webpack-plugin\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [
+              ],
+              "reasons": [
+                {
+                  "moduleId": "Egy3",
+                  "moduleIdentifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-webpack-plugin\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html",
+                  "type": "cjs require",
+                  "userRequest": "../components/meta.html",
+                  "loc": "1:71-105"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1,
+              "source": "module.exports = \"<meta charset=\\\"UTF-8\\\">\\n<meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\n<meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\">\";"
+            },
+            {
+              "id": "gq9H",
+              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\components\\footer.html",
+              "name": "./src/page/components/footer.html",
+              "index": 3,
+              "index2": 2,
+              "size": 68,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-webpack-plugin\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.html",
+              "issuerId": "Egy3",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html",
+              "issuerPath": [
+                {
+                  "id": "Egy3",
+                  "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-webpack-plugin\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [
+              ],
+              "reasons": [
+                {
+                  "moduleId": "Egy3",
+                  "moduleIdentifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-webpack-plugin\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html",
+                  "type": "cjs require",
+                  "userRequest": "../components/footer.html",
+                  "loc": "1:234-270"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1,
+              "source": "module.exports = \"<footer>\\n  <h3>Here is footer</h3>\\n</footer>\\n\";"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "",
+              "request": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-webpack-plugin\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.html",
+              "reasons": [
+              ]
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": "Egy3",
+          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-webpack-plugin\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html",
+          "index": 0,
+          "index2": 3,
+          "size": 298,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-webpack-plugin\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.html"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "source": "module.exports = \"<!DOCTYPE html>\\n<html lang=\\\"zh\\\">\\n\\n<head>\\n  \" + require('../components/meta.html') + \"\\n  <title>\\n    首页\\n  </title>\\n</head>\\n\\n<body>\\n  \" + require('../components/header.html') + \"\\n  <h3>detail</h3>\\n  \" + require('../components/footer.html') + \"\\n</body>\\n\\n</html>\\n\";"
+        },
+        {
+          "id": "RZzn",
+          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\components\\header.html",
+          "name": "./src/page/components/header.html",
+          "index": 2,
+          "index2": 1,
+          "size": 68,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-webpack-plugin\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.html",
+          "issuerId": "Egy3",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html",
+          "issuerPath": [
+            {
+              "id": "Egy3",
+              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-webpack-plugin\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": "Egy3",
+              "moduleIdentifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-webpack-plugin\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html",
+              "type": "cjs require",
+              "userRequest": "../components/header.html",
+              "loc": "1:167-203"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "module.exports = \"<header>\\n  <h3>Here is header</h3>\\n</header>\\n\";"
+        },
+        {
+          "id": "f6mh",
+          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\components\\meta.html",
+          "name": "./src/page/components/meta.html",
+          "index": 1,
+          "index2": 0,
+          "size": 179,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-webpack-plugin\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.html",
+          "issuerId": "Egy3",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html",
+          "issuerPath": [
+            {
+              "id": "Egy3",
+              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-webpack-plugin\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": "Egy3",
+              "moduleIdentifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-webpack-plugin\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html",
+              "type": "cjs require",
+              "userRequest": "../components/meta.html",
+              "loc": "1:71-105"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "module.exports = \"<meta charset=\\\"UTF-8\\\">\\n<meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\n<meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\">\";"
+        },
+        {
+          "id": "gq9H",
+          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\components\\footer.html",
+          "name": "./src/page/components/footer.html",
+          "index": 3,
+          "index2": 2,
+          "size": 68,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-webpack-plugin\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.html",
+          "issuerId": "Egy3",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html",
+          "issuerPath": [
+            {
+              "id": "Egy3",
+              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-webpack-plugin\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": "Egy3",
+              "moduleIdentifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\html-webpack-plugin\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\html-loader\\index.js??ref--6-0!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/detail/detail.html",
+              "type": "cjs require",
+              "userRequest": "../components/footer.html",
+              "loc": "1:234-270"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "module.exports = \"<footer>\\n  <h3>Here is footer</h3>\\n</footer>\\n\";"
+        }
+      ],
+      "filteredModules": 0,
+      "children": [
+      ],
+      "name": "html-webpack-plugin for \"page\\detail\\detail.html\""
+    },
+    {
+      "errors": [
+      ],
+      "warnings": [
+      ],
+      "publicPath": "/",
+      "outputPath": "G:\\POI\\webpack-mutipage-template\\dist",
+      "assetsByChunkName": {
+      },
+      "assets": [
+        {
+          "name": "image/3b05b1c58bdd1162083b57bbcce58d52.jpg",
+          "size": 65486,
+          "chunks": [
+          ],
+          "chunkNames": [
+          ],
+          "emitted": true
+        },
+        {
+          "name": "page/index/index.html",
+          "size": 4973,
+          "chunks": [
+            0
+          ],
+          "chunkNames": [
+          ]
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "page/index/index.html"
+          ],
+          "children": {
+          },
+          "childAssets": {
+          }
+        }
+      },
+      "namedChunkGroups": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "page/index/index.html"
+          ],
+          "children": {
+          },
+          "childAssets": {
+          }
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 1011,
+          "names": [
+          ],
+          "files": [
+            "page/index/index.html"
+          ],
+          "hash": "2437d0d529553d2faeed",
           "siblings": [
           ],
           "parents": [
@@ -1978,7 +2775,7 @@
               "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/index/index.html",
               "index": 0,
               "index2": 4,
-              "size": 444,
+              "size": 608,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -2011,7 +2808,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "module.exports = \"<!DOCTYPE html>\\n<html lang=\\\"zh\\\">\\n\\n<head>\\n  \" + require('../components/meta.html') + \"\\n  <title>\\n    首页\\n  </title>\\n</head>\\n\\n<body>\\n  \" + require('../components/header.html') + \"\\n  <img src=\\\"\" + require(\"@/image/page/index/index.jpg\") + \"\\\" width=\\\"500\\\" alt=\\\"图片\\\" />\\n  <div class=\\\"icon-report\\\"></div>\\n  <div class=\\\"icon-index\\\"></div>\\n  \" + require('../components/footer.html') + \"\\n</body>\\n\\n</html>\\n\";"
+              "source": "module.exports = \"<!DOCTYPE html>\\n<html lang=\\\"zh\\\">\\n\\n<head>\\n  \" + require('../components/meta.html') + \"\\n  <title>\\n    首页\\n  </title>\\n</head>\\n\\n<body>\\n  \" + require('../components/header.html') + \"\\n  <h1>#links</h1>\\n  <div>\\n    <a href=\\\"/list\\\">list</a>\\n    <a href=\\\"/detail\\\">detail</a>\\n  </div>\\n  <h1>#images</h1>\\n  <img src=\\\"\" + require(\"@/image/page/index/index.jpg\") + \"\\\" width=\\\"500\\\" alt=\\\"图片\\\" />\\n  <h1>#sprite icons</h1>\\n  <button class=\\\"icon-report\\\"></button>\\n  <button class=\\\"icon-index\\\"></button>\\n  \" + require('../components/footer.html') + \"\\n</body>\\n\\n</html>\\n\";"
             },
             {
               "id": "RZzn",
@@ -2019,7 +2816,7 @@
               "name": "./src/page/components/header.html",
               "index": 2,
               "index2": 1,
-              "size": 51,
+              "size": 68,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -2059,7 +2856,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 1,
-              "source": "module.exports = \"<header>Here is header</header>\";"
+              "source": "module.exports = \"<header>\\n  <h3>Here is header</h3>\\n</header>\\n\";"
             },
             {
               "id": "f6mh",
@@ -2115,7 +2912,7 @@
               "name": "./src/page/components/footer.html",
               "index": 4,
               "index2": 3,
-              "size": 51,
+              "size": 68,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -2146,7 +2943,7 @@
                   "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/index/index.html",
                   "type": "cjs require",
                   "userRequest": "../components/footer.html",
-                  "loc": "1:380-416"
+                  "loc": "1:544-580"
                 }
               ],
               "usedExports": true,
@@ -2155,7 +2952,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 1,
-              "source": "module.exports = \"<footer>Here is footer</footer>\";"
+              "source": "module.exports = \"<footer>\\n  <h3>Here is footer</h3>\\n</footer>\\n\";"
             },
             {
               "id": "oEyh",
@@ -2195,7 +2992,7 @@
                   "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/index/index.html",
                   "type": "cjs require",
                   "userRequest": "@/image/page/index/index.jpg",
-                  "loc": "1:226-265"
+                  "loc": "1:352-391"
                 }
               ],
               "usedExports": true,
@@ -2228,7 +3025,7 @@
           "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/index/index.html",
           "index": 0,
           "index2": 4,
-          "size": 444,
+          "size": 608,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2261,7 +3058,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "module.exports = \"<!DOCTYPE html>\\n<html lang=\\\"zh\\\">\\n\\n<head>\\n  \" + require('../components/meta.html') + \"\\n  <title>\\n    首页\\n  </title>\\n</head>\\n\\n<body>\\n  \" + require('../components/header.html') + \"\\n  <img src=\\\"\" + require(\"@/image/page/index/index.jpg\") + \"\\\" width=\\\"500\\\" alt=\\\"图片\\\" />\\n  <div class=\\\"icon-report\\\"></div>\\n  <div class=\\\"icon-index\\\"></div>\\n  \" + require('../components/footer.html') + \"\\n</body>\\n\\n</html>\\n\";"
+          "source": "module.exports = \"<!DOCTYPE html>\\n<html lang=\\\"zh\\\">\\n\\n<head>\\n  \" + require('../components/meta.html') + \"\\n  <title>\\n    首页\\n  </title>\\n</head>\\n\\n<body>\\n  \" + require('../components/header.html') + \"\\n  <h1>#links</h1>\\n  <div>\\n    <a href=\\\"/list\\\">list</a>\\n    <a href=\\\"/detail\\\">detail</a>\\n  </div>\\n  <h1>#images</h1>\\n  <img src=\\\"\" + require(\"@/image/page/index/index.jpg\") + \"\\\" width=\\\"500\\\" alt=\\\"图片\\\" />\\n  <h1>#sprite icons</h1>\\n  <button class=\\\"icon-report\\\"></button>\\n  <button class=\\\"icon-index\\\"></button>\\n  \" + require('../components/footer.html') + \"\\n</body>\\n\\n</html>\\n\";"
         },
         {
           "id": "RZzn",
@@ -2269,7 +3066,7 @@
           "name": "./src/page/components/header.html",
           "index": 2,
           "index2": 1,
-          "size": 51,
+          "size": 68,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2309,7 +3106,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 1,
-          "source": "module.exports = \"<header>Here is header</header>\";"
+          "source": "module.exports = \"<header>\\n  <h3>Here is header</h3>\\n</header>\\n\";"
         },
         {
           "id": "f6mh",
@@ -2365,7 +3162,7 @@
           "name": "./src/page/components/footer.html",
           "index": 4,
           "index2": 3,
-          "size": 51,
+          "size": 68,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2396,7 +3193,7 @@
               "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/index/index.html",
               "type": "cjs require",
               "userRequest": "../components/footer.html",
-              "loc": "1:380-416"
+              "loc": "1:544-580"
             }
           ],
           "usedExports": true,
@@ -2405,7 +3202,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 1,
-          "source": "module.exports = \"<footer>Here is footer</footer>\";"
+          "source": "module.exports = \"<footer>\\n  <h3>Here is footer</h3>\\n</footer>\\n\";"
         },
         {
           "id": "oEyh",
@@ -2445,7 +3242,7 @@
               "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/index/index.html",
               "type": "cjs require",
               "userRequest": "@/image/page/index/index.jpg",
-              "loc": "1:226-265"
+              "loc": "1:352-391"
             }
           ],
           "usedExports": true,
@@ -2460,7 +3257,7 @@
       "filteredModules": 0,
       "children": [
       ],
-      "name": "html-webpack-plugin for \"index.html\""
+      "name": "html-webpack-plugin for \"page\\index\\index.html\""
     },
     {
       "errors": [
@@ -2474,7 +3271,7 @@
       "assets": [
         {
           "name": "page/list/list.html",
-          "size": 4604,
+          "size": 4629,
           "chunks": [
             0
           ],
@@ -2517,13 +3314,13 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 712,
+          "size": 737,
           "names": [
           ],
           "files": [
             "page/list/list.html"
           ],
-          "hash": "1d0f76b4ecb010eb07ea",
+          "hash": "993181f5628fc4eda2b6",
           "siblings": [
           ],
           "parents": [
@@ -2539,7 +3336,7 @@
               "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/list/list.html",
               "index": 0,
               "index2": 3,
-              "size": 431,
+              "size": 422,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -2572,7 +3369,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "module.exports = \"<!DOCTYPE html>\\n<html lang=\\\"zh\\\">\\n\\n<head>\\n  \" + require('../components/meta.html') + \"\\n  <title>\\n    列表页\\n  </title>\\n</head>\\n\\n<body>\\n  \" + require('../components/header.html') + \"\\n  <a href=\\\"index.html\\\">index</a>\\n  <ul>\\n    <li>1212</li>\\n    <li>2333fasdfadsa</li>\\n    <li>3</li>\\n  </ul>\\n  <div class=\\\"icon-list\\\"></div>\\n  \" + require('../components/footer.html') + \"\\n</body>\\n\\n</html>\\n\";"
+              "source": "module.exports = \"<!DOCTYPE html>\\n<html lang=\\\"zh\\\">\\n\\n<head>\\n  \" + require('../components/meta.html') + \"\\n  <title>\\n    列表页\\n  </title>\\n</head>\\n\\n<body>\\n  \" + require('../components/header.html') + \"\\n  <a href=\\\"/\\\">index</a>\\n  <ul>\\n    <li>1212</li>\\n    <li>2333fasdfadsa</li>\\n    <li>3</li>\\n  </ul>\\n  <div class=\\\"icon-list\\\"></div>\\n  \" + require('../components/footer.html') + \"\\n</body>\\n\\n</html>\\n\";"
             },
             {
               "id": "RZzn",
@@ -2580,7 +3377,7 @@
               "name": "./src/page/components/header.html",
               "index": 2,
               "index2": 1,
-              "size": 51,
+              "size": 68,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -2620,7 +3417,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 1,
-              "source": "module.exports = \"<header>Here is header</header>\";"
+              "source": "module.exports = \"<header>\\n  <h3>Here is header</h3>\\n</header>\\n\";"
             },
             {
               "id": "f6mh",
@@ -2676,7 +3473,7 @@
               "name": "./src/page/components/footer.html",
               "index": 3,
               "index2": 2,
-              "size": 51,
+              "size": 68,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -2707,7 +3504,7 @@
                   "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/list/list.html",
                   "type": "cjs require",
                   "userRequest": "../components/footer.html",
-                  "loc": "1:367-403"
+                  "loc": "1:358-394"
                 }
               ],
               "usedExports": true,
@@ -2716,7 +3513,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 1,
-              "source": "module.exports = \"<footer>Here is footer</footer>\";"
+              "source": "module.exports = \"<footer>\\n  <h3>Here is footer</h3>\\n</footer>\\n\";"
             }
           ],
           "filteredModules": 0,
@@ -2740,7 +3537,7 @@
           "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/list/list.html",
           "index": 0,
           "index2": 3,
-          "size": 431,
+          "size": 422,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2773,7 +3570,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "module.exports = \"<!DOCTYPE html>\\n<html lang=\\\"zh\\\">\\n\\n<head>\\n  \" + require('../components/meta.html') + \"\\n  <title>\\n    列表页\\n  </title>\\n</head>\\n\\n<body>\\n  \" + require('../components/header.html') + \"\\n  <a href=\\\"index.html\\\">index</a>\\n  <ul>\\n    <li>1212</li>\\n    <li>2333fasdfadsa</li>\\n    <li>3</li>\\n  </ul>\\n  <div class=\\\"icon-list\\\"></div>\\n  \" + require('../components/footer.html') + \"\\n</body>\\n\\n</html>\\n\";"
+          "source": "module.exports = \"<!DOCTYPE html>\\n<html lang=\\\"zh\\\">\\n\\n<head>\\n  \" + require('../components/meta.html') + \"\\n  <title>\\n    列表页\\n  </title>\\n</head>\\n\\n<body>\\n  \" + require('../components/header.html') + \"\\n  <a href=\\\"/\\\">index</a>\\n  <ul>\\n    <li>1212</li>\\n    <li>2333fasdfadsa</li>\\n    <li>3</li>\\n  </ul>\\n  <div class=\\\"icon-list\\\"></div>\\n  \" + require('../components/footer.html') + \"\\n</body>\\n\\n</html>\\n\";"
         },
         {
           "id": "RZzn",
@@ -2781,7 +3578,7 @@
           "name": "./src/page/components/header.html",
           "index": 2,
           "index2": 1,
-          "size": 51,
+          "size": 68,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2821,7 +3618,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 1,
-          "source": "module.exports = \"<header>Here is header</header>\";"
+          "source": "module.exports = \"<header>\\n  <h3>Here is header</h3>\\n</header>\\n\";"
         },
         {
           "id": "f6mh",
@@ -2877,7 +3674,7 @@
           "name": "./src/page/components/footer.html",
           "index": 3,
           "index2": 2,
-          "size": 51,
+          "size": 68,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2908,7 +3705,7 @@
               "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/page/list/list.html",
               "type": "cjs require",
               "userRequest": "../components/footer.html",
-              "loc": "1:367-403"
+              "loc": "1:358-394"
             }
           ],
           "usedExports": true,
@@ -2917,7 +3714,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 1,
-          "source": "module.exports = \"<footer>Here is footer</footer>\";"
+          "source": "module.exports = \"<footer>\\n  <h3>Here is footer</h3>\\n</footer>\\n\";"
         }
       ],
       "filteredModules": 0,
@@ -2980,14 +3777,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 3293,
+          "size": 3297,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "8e73849b32e9ab48c937",
+          "hash": "87a5fec3a245e20c7060",
           "siblings": [
           ],
           "parents": [
@@ -3083,7 +3880,7 @@
                   "moduleName": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/common/common.scss",
                   "type": "cjs require",
                   "userRequest": "common/sprite.png",
-                  "loc": "7:175-203"
+                  "loc": "7:179-207"
                 }
               ],
               "usedExports": true,
@@ -3100,7 +3897,7 @@
               "name": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/common/common.scss",
               "index": 0,
               "index2": 3,
-              "size": 497,
+              "size": 501,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -3134,7 +3931,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "var escape = require(\"../../../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"* {\\n  margin: 0;\\n  padding: 0; }\\n\\nheader {\\n  color: #fff; }\\n\\nfooter {\\n  color: #fff; }\\n\\n.icon-report {\\n  background-image: url(\" + escape(require(\"common/sprite.png\")) + \");\\n  background-position: 0px 0px;\\n  width: 512px;\\n  height: 512px; }\\n\", \"\"]);\n\n// exports\n"
+              "source": "var escape = require(\"../../../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"* {\\n  margin: 0;\\n  padding: 0; }\\n\\nheader {\\n  color: tomato; }\\n\\nfooter {\\n  color: tomato; }\\n\\n.icon-report {\\n  background-image: url(\" + escape(require(\"common/sprite.png\")) + \");\\n  background-position: 0px 0px;\\n  width: 512px;\\n  height: 512px; }\\n\", \"\"]);\n\n// exports\n"
             },
             {
               "id": "sEG9",
@@ -3286,7 +4083,7 @@
               "moduleName": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/common/common.scss",
               "type": "cjs require",
               "userRequest": "common/sprite.png",
-              "loc": "7:175-203"
+              "loc": "7:179-207"
             }
           ],
           "usedExports": true,
@@ -3303,7 +4100,7 @@
           "name": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/common/common.scss",
           "index": 0,
           "index2": 3,
-          "size": 497,
+          "size": 501,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -3337,7 +4134,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "var escape = require(\"../../../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"* {\\n  margin: 0;\\n  padding: 0; }\\n\\nheader {\\n  color: #fff; }\\n\\nfooter {\\n  color: #fff; }\\n\\n.icon-report {\\n  background-image: url(\" + escape(require(\"common/sprite.png\")) + \");\\n  background-position: 0px 0px;\\n  width: 512px;\\n  height: 512px; }\\n\", \"\"]);\n\n// exports\n"
+          "source": "var escape = require(\"../../../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"* {\\n  margin: 0;\\n  padding: 0; }\\n\\nheader {\\n  color: tomato; }\\n\\nfooter {\\n  color: tomato; }\\n\\n.icon-report {\\n  background-image: url(\" + escape(require(\"common/sprite.png\")) + \");\\n  background-position: 0px 0px;\\n  width: 512px;\\n  height: 512px; }\\n\", \"\"]);\n\n// exports\n"
         },
         {
           "id": "sEG9",
@@ -3411,15 +4208,6 @@
           "chunkNames": [
           ],
           "emitted": true
-        },
-        {
-          "name": "image/3b05b1c58bdd1162083b57bbcce58d52.jpg",
-          "size": 65486,
-          "chunks": [
-          ],
-          "chunkNames": [
-          ],
-          "emitted": true
         }
       ],
       "filteredAssets": 0,
@@ -3457,14 +4245,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 3651,
+          "size": 3431,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "5a76dd8e59aab05a395c",
+          "hash": "f8a980ef52059254f3ad",
           "siblings": [
           ],
           "parents": [
@@ -3479,8 +4267,8 @@
               "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\index\\index.scss",
               "name": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/page/index/index.scss",
               "index": 0,
-              "index2": 4,
-              "size": 767,
+              "index2": 3,
+              "size": 635,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -3514,7 +4302,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "var escape = require(\"../../../../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../../../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"img {\\n  border: 1px solid #fff;\\n  color: #fff;\\n  margin: 30px;\\n  outline-color: #000;\\n  position: relative;\\n  -webkit-transform: rotate3d(1, 2, 3, 5deg);\\n  transform: rotate3d(1, 2, 3, 5deg); }\\n\\nbody {\\n  background: cadetblue url(\" + escape(require(\"@/image/page/index/index.jpg\")) + \");\\n  background-attachment: fixed; }\\n\\na {\\n  color: #000; }\\n\\n.icon-index {\\n  background-image: url(\" + escape(require(\"index/sprite.png\")) + \");\\n  background-position: -512px 0px;\\n  width: 512px;\\n  height: 512px; }\\n\", \"\"]);\n\n// exports\n"
+              "source": "var escape = require(\"../../../../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../../../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"img {\\n  border: 1px solid #fff;\\n  color: #fff;\\n  margin: 30px;\\n  outline-color: #000;\\n  position: relative;\\n  -webkit-transform: rotate3d(1, 2, 3, 5deg);\\n  transform: rotate3d(1, 2, 3, 5deg); }\\n\\na {\\n  color: #000; }\\n\\n.icon-index {\\n  background-image: url(\" + escape(require(\"index/sprite.png\")) + \");\\n  background-position: -512px 0px;\\n  width: 512px;\\n  height: 512px; }\\n\", \"\"]);\n\n// exports\n"
             },
             {
               "id": "I1BE",
@@ -3568,8 +4356,8 @@
               "id": "YAeA",
               "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\url-loader\\dist\\cjs.js??ref--7-0!G:\\POI\\webpack-mutipage-template\\src\\sprite\\generate\\index\\sprite.png",
               "name": "./src/sprite/generate/index/sprite.png",
-              "index": 4,
-              "index2": 3,
+              "index": 3,
+              "index2": 2,
               "size": 88,
               "cacheable": true,
               "built": true,
@@ -3602,7 +4390,7 @@
                   "moduleName": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/page/index/index.scss",
                   "type": "cjs require",
                   "userRequest": "index/sprite.png",
-                  "loc": "7:437-464"
+                  "loc": "7:305-332"
                 }
               ],
               "usedExports": true,
@@ -3612,55 +4400,6 @@
               ],
               "depth": 1,
               "source": "module.exports = __webpack_public_path__ + \"image/2c79017e0ece96e3e723a8353716e8fb.png\";"
-            },
-            {
-              "id": "oEyh",
-              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\url-loader\\dist\\cjs.js??ref--7-0!G:\\POI\\webpack-mutipage-template\\src\\image\\page\\index\\index.jpg",
-              "name": "./src/image/page/index/index.jpg",
-              "index": 3,
-              "index2": 2,
-              "size": 88,
-              "cacheable": true,
-              "built": true,
-              "optional": false,
-              "prefetched": false,
-              "chunks": [
-                0
-              ],
-              "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\index\\index.scss",
-              "issuerId": "297C",
-              "issuerName": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/page/index/index.scss",
-              "issuerPath": [
-                {
-                  "id": "297C",
-                  "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\index\\index.scss",
-                  "name": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/page/index/index.scss"
-                }
-              ],
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "assets": [
-                "image/3b05b1c58bdd1162083b57bbcce58d52.jpg"
-              ],
-              "reasons": [
-                {
-                  "moduleId": "297C",
-                  "moduleIdentifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\index\\index.scss",
-                  "module": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/page/index/index.scss",
-                  "moduleName": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/page/index/index.scss",
-                  "type": "cjs require",
-                  "userRequest": "@/image/page/index/index.jpg",
-                  "loc": "7:277-316"
-                }
-              ],
-              "usedExports": true,
-              "providedExports": null,
-              "optimizationBailout": [
-                "ModuleConcatenation bailout: Module is not an ECMAScript module"
-              ],
-              "depth": 1,
-              "source": "module.exports = __webpack_public_path__ + \"image/3b05b1c58bdd1162083b57bbcce58d52.jpg\";"
             },
             {
               "id": "sEG9",
@@ -3731,8 +4470,8 @@
           "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\index\\index.scss",
           "name": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/page/index/index.scss",
           "index": 0,
-          "index2": 4,
-          "size": 767,
+          "index2": 3,
+          "size": 635,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -3766,7 +4505,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "var escape = require(\"../../../../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../../../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"img {\\n  border: 1px solid #fff;\\n  color: #fff;\\n  margin: 30px;\\n  outline-color: #000;\\n  position: relative;\\n  -webkit-transform: rotate3d(1, 2, 3, 5deg);\\n  transform: rotate3d(1, 2, 3, 5deg); }\\n\\nbody {\\n  background: cadetblue url(\" + escape(require(\"@/image/page/index/index.jpg\")) + \");\\n  background-attachment: fixed; }\\n\\na {\\n  color: #000; }\\n\\n.icon-index {\\n  background-image: url(\" + escape(require(\"index/sprite.png\")) + \");\\n  background-position: -512px 0px;\\n  width: 512px;\\n  height: 512px; }\\n\", \"\"]);\n\n// exports\n"
+          "source": "var escape = require(\"../../../../node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = require(\"../../../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"img {\\n  border: 1px solid #fff;\\n  color: #fff;\\n  margin: 30px;\\n  outline-color: #000;\\n  position: relative;\\n  -webkit-transform: rotate3d(1, 2, 3, 5deg);\\n  transform: rotate3d(1, 2, 3, 5deg); }\\n\\na {\\n  color: #000; }\\n\\n.icon-index {\\n  background-image: url(\" + escape(require(\"index/sprite.png\")) + \");\\n  background-position: -512px 0px;\\n  width: 512px;\\n  height: 512px; }\\n\", \"\"]);\n\n// exports\n"
         },
         {
           "id": "I1BE",
@@ -3820,8 +4559,8 @@
           "id": "YAeA",
           "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\url-loader\\dist\\cjs.js??ref--7-0!G:\\POI\\webpack-mutipage-template\\src\\sprite\\generate\\index\\sprite.png",
           "name": "./src/sprite/generate/index/sprite.png",
-          "index": 4,
-          "index2": 3,
+          "index": 3,
+          "index2": 2,
           "size": 88,
           "cacheable": true,
           "built": true,
@@ -3854,7 +4593,7 @@
               "moduleName": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/page/index/index.scss",
               "type": "cjs require",
               "userRequest": "index/sprite.png",
-              "loc": "7:437-464"
+              "loc": "7:305-332"
             }
           ],
           "usedExports": true,
@@ -3864,55 +4603,6 @@
           ],
           "depth": 1,
           "source": "module.exports = __webpack_public_path__ + \"image/2c79017e0ece96e3e723a8353716e8fb.png\";"
-        },
-        {
-          "id": "oEyh",
-          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\url-loader\\dist\\cjs.js??ref--7-0!G:\\POI\\webpack-mutipage-template\\src\\image\\page\\index\\index.jpg",
-          "name": "./src/image/page/index/index.jpg",
-          "index": 3,
-          "index2": 2,
-          "size": 88,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0
-          ],
-          "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\index\\index.scss",
-          "issuerId": "297C",
-          "issuerName": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/page/index/index.scss",
-          "issuerPath": [
-            {
-              "id": "297C",
-              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\index\\index.scss",
-              "name": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/page/index/index.scss"
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "assets": [
-            "image/3b05b1c58bdd1162083b57bbcce58d52.jpg"
-          ],
-          "reasons": [
-            {
-              "moduleId": "297C",
-              "moduleIdentifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\css-loader\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\sass-loader\\lib\\loader.js!G:\\POI\\webpack-mutipage-template\\node_modules\\postcss-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\src\\style\\page\\index\\index.scss",
-              "module": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/page/index/index.scss",
-              "moduleName": "./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/page/index/index.scss",
-              "type": "cjs require",
-              "userRequest": "@/image/page/index/index.jpg",
-              "loc": "7:277-316"
-            }
-          ],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [
-            "ModuleConcatenation bailout: Module is not an ECMAScript module"
-          ],
-          "depth": 1,
-          "source": "module.exports = __webpack_public_path__ + \"image/3b05b1c58bdd1162083b57bbcce58d52.jpg\";"
         },
         {
           "id": "sEG9",

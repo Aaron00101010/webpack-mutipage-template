@@ -4,8 +4,7 @@
   "description": "a mutipage webpack template config",
   "main": "none",
   "dependencies": {
-    "jquery": "^3.3.1",
-    "jsonp": "^0.2.1"
+    "jquery": "^3.3.1"
   },
   "devDependencies": {
     "autoprefixer": "^9.1.3",
@@ -40,6 +39,7 @@
     "prettier": "1.14.2",
     "raw-loader": "^0.5.1",
     "sass-loader": "^7.1.0",
+    "speed-measure-webpack-plugin": "^1.2.2",
     "style-loader": "^0.21.0",
     "stylelint": "^9.5.0",
     "stylelint-config-recommended": "^2.1.0",
@@ -58,7 +58,7 @@
   },
   "scripts": {
     "build": "webpack --config ./build/webpack.config.prod.js --progress --mode production",
-    "dev": "webpack-dev-server --config ./build/webpack.config.dev.js --mode development --progress",
+    "dev": "webpack-dev-server --config ./build/webpack.config.dev.js --mode development --progress --open",
     "chart": "webpack-bundle-analyzer ./temp/report.json",
     "config:dev": "nodemon --watch ./build/*.js --exec \"npm run dev \"",
     "config:build": "nodemon --watch ./build/*.js --exec \"npm run build\"",
