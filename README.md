@@ -7,7 +7,7 @@ npm i && npm run dev
 # Feature
 
 - 遍历创建 entry,生成 html,可以引入公共 html,如 header,footer。
-- 生成包含所有构建页面的文件，方便总览跳转指定页面。
+- 生成包含所有构建页面的列表html，方便总览，跳转对应页面。
 - css sprite,可以将需要整合的图片放入一个文件夹，针对每个目录生成 sprite 图片,scss 样式文件。实现使用参考[webpack-spritesmith](https://www.npmjs.com/package/webpack-spritesmith)。
 - 代码质量检测，引入 eslint，stylelint，利用git-hook在commit前对代码时进行格式化，保证提交代码质量，也可以配合编辑器插件实现保存自动格式化代码（VSCode 推荐使用 prettier）。
 - css autoprefix,css 属性按照字母顺序自动排列。
