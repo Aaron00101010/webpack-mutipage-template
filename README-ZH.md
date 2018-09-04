@@ -21,7 +21,7 @@ npm i && npm run dev
 
 # CLI
 
-```json
+```js
  "scripts": {
    //打包
     "build": "webpack --config ./build/webpack.config.prod.js --progress --mode production",

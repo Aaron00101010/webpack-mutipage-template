@@ -23,9 +23,9 @@ npm i && npm run dev
 
 # CLI
 
-```json
+```js
  "scripts": {
-   //bundle
+    //bundle
     "build": "webpack --config ./build/webpack.config.prod.js --progress --mode production",
     //development
     "dev": "webpack-dev-server --config ./build/webpack.config.dev.js --mode development --progress --open",
