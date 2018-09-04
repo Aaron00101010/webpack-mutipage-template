@@ -11,12 +11,13 @@ function generateHtmlList () {
     </tr>`
   })
   htmlStr += '</table>'
-
+  if (!fs.existsSync(resolve('temp'))) {
+    fs.mkdirSync(resolve('temp'))
+  }
   fs.writeFileSync(resolve('temp/htmlList.html'), htmlStr, err => {
     if (err) {
       throw err
     }
-    console.log('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')
   })
 }
 generateHtmlList()
