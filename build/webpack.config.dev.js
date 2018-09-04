@@ -13,7 +13,7 @@ module.exports = merge.smart(
     mode: 'development',
     devServer: {
       contentBase: resolve('dist'),
-      openPage: '/htmlList.html',
+      openPage: 'htmlList.html',
       overlay: true,
       inline: true
     },

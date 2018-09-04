@@ -5,8 +5,8 @@
   ],
   "version": "4.17.1",
   "hash": "7ed1006d4e14400d4708",
-  "time": 5465,
-  "builtAt": 1536024952604,
+  "time": 5689,
+  "builtAt": 1536032573387,
   "publicPath": "/",
   "outputPath": "G:\\POI\\webpack-mutipage-template\\dist",
   "assetsByChunkName": {
@@ -216,9 +216,9 @@
           "issuerName": "./node_modules/style-loader/lib/addStyles.js",
           "issuerPath": [
             {
-              "id": "Run9",
-              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-              "name": "./src/page/index/index.js"
+              "id": "Iiyj",
+              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+              "name": "./src/page/detail/detail.js"
             },
             {
               "id": "By7j",
@@ -274,9 +274,9 @@
           "issuerName": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js!./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/common/common.scss",
           "issuerPath": [
             {
-              "id": "Run9",
-              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-              "name": "./src/page/index/index.js"
+              "id": "Iiyj",
+              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+              "name": "./src/page/detail/detail.js"
             },
             {
               "id": "By7j",
@@ -324,14 +324,14 @@
           "chunks": [
             0
           ],
-          "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-          "issuerId": "Run9",
-          "issuerName": "./src/page/index/index.js",
+          "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+          "issuerId": "Iiyj",
+          "issuerName": "./src/page/detail/detail.js",
           "issuerPath": [
             {
-              "id": "Run9",
-              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-              "name": "./src/page/index/index.js"
+              "id": "Iiyj",
+              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+              "name": "./src/page/detail/detail.js"
             }
           ],
           "failed": false,
@@ -391,14 +391,14 @@
           "chunks": [
             0
           ],
-          "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-          "issuerId": "Run9",
-          "issuerName": "./src/page/index/index.js",
+          "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+          "issuerId": "Iiyj",
+          "issuerName": "./src/page/detail/detail.js",
           "issuerPath": [
             {
-              "id": "Run9",
-              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-              "name": "./src/page/index/index.js"
+              "id": "Iiyj",
+              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+              "name": "./src/page/detail/detail.js"
             }
           ],
           "failed": false,
@@ -531,9 +531,9 @@
           "issuerName": "./src/style/common/common.scss",
           "issuerPath": [
             {
-              "id": "Run9",
-              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-              "name": "./src/page/index/index.js"
+              "id": "Iiyj",
+              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+              "name": "./src/page/detail/detail.js"
             },
             {
               "id": "By7j",
@@ -585,9 +585,9 @@
           "issuerName": "./src/style/common/common.scss",
           "issuerPath": [
             {
-              "id": "Run9",
-              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-              "name": "./src/page/index/index.js"
+              "id": "Iiyj",
+              "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+              "name": "./src/page/detail/detail.js"
             },
             {
               "id": "By7j",
@@ -1310,9 +1310,9 @@
       "issuerName": "./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js!./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/lib!./src/style/common/common.scss",
       "issuerPath": [
         {
-          "id": "Run9",
-          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-          "name": "./src/page/index/index.js"
+          "id": "Iiyj",
+          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+          "name": "./src/page/detail/detail.js"
         },
         {
           "id": "By7j",
@@ -1523,9 +1523,9 @@
       "issuerName": "./node_modules/style-loader/lib/addStyles.js",
       "issuerPath": [
         {
-          "id": "Run9",
-          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-          "name": "./src/page/index/index.js"
+          "id": "Iiyj",
+          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+          "name": "./src/page/detail/detail.js"
         },
         {
           "id": "By7j",
@@ -1619,14 +1619,14 @@
       "chunks": [
         0
       ],
-      "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-      "issuerId": "Run9",
-      "issuerName": "./src/page/index/index.js",
+      "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+      "issuerId": "Iiyj",
+      "issuerName": "./src/page/detail/detail.js",
       "issuerPath": [
         {
-          "id": "Run9",
-          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-          "name": "./src/page/index/index.js"
+          "id": "Iiyj",
+          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+          "name": "./src/page/detail/detail.js"
         }
       ],
       "failed": false,
@@ -1685,14 +1685,14 @@
       "chunks": [
         0
       ],
-      "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-      "issuerId": "Run9",
-      "issuerName": "./src/page/index/index.js",
+      "issuer": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+      "issuerId": "Iiyj",
+      "issuerName": "./src/page/detail/detail.js",
       "issuerPath": [
         {
-          "id": "Run9",
-          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-          "name": "./src/page/index/index.js"
+          "id": "Iiyj",
+          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+          "name": "./src/page/detail/detail.js"
         }
       ],
       "failed": false,
@@ -1974,9 +1974,9 @@
       "issuerName": "./src/style/common/common.scss",
       "issuerPath": [
         {
-          "id": "Run9",
-          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-          "name": "./src/page/index/index.js"
+          "id": "Iiyj",
+          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+          "name": "./src/page/detail/detail.js"
         },
         {
           "id": "By7j",
@@ -2070,9 +2070,9 @@
       "issuerName": "./src/style/common/common.scss",
       "issuerPath": [
         {
-          "id": "Run9",
-          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\index\\index.js",
-          "name": "./src/page/index/index.js"
+          "id": "Iiyj",
+          "identifier": "G:\\POI\\webpack-mutipage-template\\node_modules\\babel-loader\\lib\\index.js!G:\\POI\\webpack-mutipage-template\\node_modules\\eslint-loader\\index.js!G:\\POI\\webpack-mutipage-template\\src\\page\\detail\\detail.js",
+          "name": "./src/page/detail/detail.js"
         },
         {
           "id": "By7j",
