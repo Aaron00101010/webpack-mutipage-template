@@ -1,5 +1,6 @@
 ![](https://img.shields.io/packagist/l/doctrine/orm.svg)
 ![](https://img.shields.io/npm/v/webpack-mutipage-template.svg)
+![](https://travis-ci.org/Aaron00101010/webpack-mutipage-template.svg?branch=master)
 
 # Quick Start
 
