@@ -1,3 +1,6 @@
+![](https://img.shields.io/packagist/l/doctrine/orm.svg)
+![](https://img.shields.io/npm/v/webpack-mutipage-template.svg)
+
 # Quick Start
 
 ```bash
