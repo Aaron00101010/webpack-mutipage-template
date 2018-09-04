@@ -22,4 +22,3 @@ module.exports = merge.smart(
     }
   }
 )
-console.log(123)
