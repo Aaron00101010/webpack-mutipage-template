@@ -1,6 +1,6 @@
 {
   "name": "webpack-mutipage-template",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a mutipage webpack template config",
   "main": "none",
   "dependencies": {
