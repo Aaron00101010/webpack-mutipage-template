@@ -1,6 +1,6 @@
-![](https://img.shields.io/packagist/l/doctrine/orm.svg)
-![](https://img.shields.io/npm/v/webpack-mutipage-template.svg)
-![](https://travis-ci.org/Aaron00101010/webpack-mutipage-template.svg?branch=master)
+[![](https://img.shields.io/packagist/l/doctrine/orm.svg)](./LICENSE)
+[![](https://img.shields.io/npm/v/webpack-mutipage-template.svg)](https://www.npmjs.com/package/webpack-mutipage-template)
+[![](https://travis-ci.org/Aaron00101010/webpack-mutipage-template.svg?branch=master)](https://travis-ci.org/Aaron00101010/webpack-mutipage-template)
 
 # Quick Start
 
