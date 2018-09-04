@@ -16,6 +16,7 @@ function generateHtmlList () {
     if (err) {
       throw err
     }
+    console.log('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')
   })
 }
 generateHtmlList()
@@ -25,12 +26,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'htmlList.html',
       template: 'temp/htmLlist.html',
-      chunks: [],
-      minify: {
-        removeComments: true,
-        collapseWhitespace: true,
-        removeAttributeQuotes: true
-      }
+      chunks: []
     })
   ]
 }
