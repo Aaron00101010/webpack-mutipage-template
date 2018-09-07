@@ -6,3 +6,9 @@
 .icon-report {
   @include sprite($report);
 }
+
+@for $i from 1 to 500 {
+  .icon-#{$i} {
+    font-size: 12px;
+  }
+}

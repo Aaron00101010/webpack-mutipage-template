@@ -30,7 +30,7 @@ npm i && npm run dev
     //development
     "dev": "webpack-dev-server --config ./build/webpack.config.dev.js --mode development --progress --open",
     //bunle analyzer
-    "chart": "webpack-bundle-analyzer ./temp/report.json",
+    "report": "webpack-bundle-analyzer ./temp/report.json",
     //develop webpack dev config
     "config:dev": "nodemon --watch ./build/*.js --exec \"npm run dev \"",
     //develop webpack build config

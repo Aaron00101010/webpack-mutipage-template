@@ -59,8 +59,7 @@ let config = merge(enteriesConfig, spriteConfig, {
     ]
   },
   plugins: [
-    new webpack.ProvidePlugin(globalLibsVarsConfig),
-    new webpack.HashedModuleIdsPlugin()
+    new webpack.ProvidePlugin(globalLibsVarsConfig)
   ]
 })
 

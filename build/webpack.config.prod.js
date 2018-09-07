@@ -1,4 +1,4 @@
-// const webpack = require('webpack')
+const webpack = require('webpack')
 const merge = require('webpack-merge')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
@@ -25,8 +25,8 @@ module.exports = smp.wrap(
           use: [
             MiniCssExtractPlugin.loader,
             'css-loader',
-            'sass-loader',
-            'postcss-loader'
+            'postcss-loader',
+            'sass-loader'
           ]
         }
       ]
@@ -42,15 +42,31 @@ module.exports = smp.wrap(
         reportFilename: resolve('temp/report.html'),
         generateStatsFile: true,
         statsFilename: resolve('temp/report.json'),
-        openAnalyzer: false
+        openAnalyzer: true
       })
     ],
     optimization: {
       splitChunks: {
-        chunks: 'all',
-        name: 'vendor'
+        cacheGroups: {
+          vendor: {
+            name: 'vendor',
+            test: /[\\/]node_modules[\\/]/,
+            chunks: 'all',
+            priority: 0
+          },
+          commonStyles: {
+            name: 'common-styles',
+            test: /[\\/]style[\\/]common[\\/]common.scss/,
+            chunks: 'all',
+            priority: 0
+          }
+        }
       },
-      minimizer: [new OptimizeCSSAssetsPlugin(), new UglifyWebpackPlugin()]
+      minimizer: [
+        new OptimizeCSSAssetsPlugin(),
+        new UglifyWebpackPlugin(),
+        new webpack.HashedModuleIdsPlugin()
+      ]
     }
   })
 )

@@ -59,7 +59,7 @@
   "scripts": {
     "build": "webpack --config ./build/webpack.config.prod.js --progress --mode production",
     "dev": "webpack-dev-server --config ./build/webpack.config.dev.js --mode development --progress --open",
-    "chart": "webpack-bundle-analyzer ./temp/report.json",
+    "report": "webpack-bundle-analyzer ./temp/report.json ./dist/",
     "config:dev": "nodemon --watch ./build/*.js --exec \"npm run dev \"",
     "config:build": "nodemon --watch ./build/*.js --exec \"npm run build\"",
     "eslint": "eslint --fix ./",

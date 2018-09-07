@@ -28,7 +28,7 @@ npm i && npm run dev
     //开发
     "dev": "webpack-dev-server --config ./build/webpack.config.dev.js --mode development --progress --open",
     //代码大小分析
-    "chart": "webpack-bundle-analyzer ./temp/report.json",
+    "report": "webpack-bundle-analyzer ./temp/report.json",
     //修改测试开发webpack配置
     "config:dev": "nodemon --watch ./build/*.js --exec \"npm run dev \"",
     //修改测试打包webpack配置
