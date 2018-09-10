@@ -62,6 +62,9 @@ module.exports = smp.wrap(
           }
         }
       },
+      runtimeChunk: {
+        name: 'manifest'
+      },
       minimizer: [
         new OptimizeCSSAssetsPlugin(),
         new UglifyWebpackPlugin(),

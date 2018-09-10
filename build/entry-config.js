@@ -21,7 +21,7 @@ entries.forEach(item => {
       favicon: faviconPath,
       filename: fileName,
       template: templatePath,
-      chunks: ['vendor', 'common-styles', chunkName],
+      chunks: ['vendor', 'manifest', 'common-styles', chunkName],
       minify: {
         removeComments: true,
         collapseWhitespace: true,
